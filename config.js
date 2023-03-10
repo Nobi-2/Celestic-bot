@@ -32,20 +32,20 @@
 require("dotenv").config();
 let gg = process.env.MODS;
 if (!gg) {
-  gg = "918101187835";   // You can Change this number //
+  gg = "917903576495";   // You can Change this number //
 }
 
 // -------------------------------------------------------------- //
 
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "mongodb+srv://fantox:xrto71r@cluster0.dnlowts.mongodb.net/?retryWrites=true&w=majority";
-global.sessionId = process.env.SESSION_ID || "ok";
-global.prefa = process.env.PREFIX || "-";
+global.mongodb = process.env.MONGODB || "mongodb+srv://Lucky2:Lucky2@cluster0.mw4duxl.mongodb.net/?retryWrites=true&w=majority";
+global.sessionId = process.env.SESSION_ID || "L2";
+global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
-  process.env.TENOR_API_KEY || "AIzaSyCyouca1_KKy4W_MG1xsPzuku5oa8W358c";
-global.packname = process.env.PACKNAME || `Atlas MD`;
-global.author = process.env.AUTHOR || "by: Team Atlas";
+  process.env.TENOR_API_KEY || "AIzaSyBgZ1LpfjhwHRK9LBSa9uUrfM1rid4ifIM";
+global.packname = process.env.PACKNAME || `𝙊𝙗𝙞𝙩𝙤`;
+global.author = process.env.AUTHOR || "☠⃝𝐓𝐡𝐞☠𝐋𝐨𝐬𝐭☠𝐔𝐜𝐡𝐢𝐡𝐚";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
