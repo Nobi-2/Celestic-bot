@@ -92,7 +92,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
       .includes(m.sender);
     const isOwner = global.owner.includes(m.sender);
-    global.suppL = "https://cutt.ly/A80xdpX";
+    global.suppL = "https://cutt.ly/z80x1DL";
 
     const isCmd = body.startsWith(prefix);
     const quoted = m.quoted ? m.quoted : m;
