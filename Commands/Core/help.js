@@ -56,7 +56,7 @@ module.exports = {
 
       let textHelpMenu = `Konnichiwa *${pushName}* Senpai,
 
-I am *${botName}*, a bot developed by *Team Atlas*.
+I am *${botName}*, a bot Edited by *Team Celestic*.
 
 🎀 My prefix is: *${prefix}*
 
@@ -276,7 +276,7 @@ Here's the list of my Commands.\n
       }
 
       textHelpMenu += `*🔰  ${botName}  🔰*
- _Powered By:_ *Team ATLAS*
+ _Powered By:_ *Team Celestic Botto © 2023*
 
 🎀 To use any of these commands type " *${prefix}Command name* ".
 
@@ -558,8 +558,8 @@ Here's the list of my Commands.\n
           type: 1,
         },
         {
-          buttonId: `${prefix}repo`,
-          buttonText: { displayText: "🧩 Source Code 🧩" },
+          buttonId: `${prefix}support`,
+          buttonText: { displayText: "🧩 Support 🧩" },
           type: 1,
         },
         {
