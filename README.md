@@ -30,7 +30,21 @@
   </a>
   <br><br>
   
-      
+<p align="center">
+<a href="https://github.com/FantoX001"><img title="Author" src="https://img.shields.io/badge/Author-Team Atlas-orange.svg?style=for-the-badge&logo=github"></a>
+
+ <a href="https://github.com/FantoX001/Atlas-MD/blob/main/LICENSE.md">
+  
+<img src='https://img.shields.io/github/license/FantoX001/Atlas-MD?color=%231e81b0&style=for-the-badge'>
+
+<p align="center">
+<a href="https://github.com/FantoX001"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-YES-purple.svg?style=for-the-badge"></a>
+<a href="https://github.com/FantoX001"><img title="" src="https://img.shields.io/badge/Maintained-Of Course-green.svg?style=for-the-badge"></a>
+</p>
+<br>
+
+---
+ <br>
  
 <h4 align="center"> Deploy on Repl.it - ( YouTube Tutorial Included & Highly Recommended )
 </h4>
@@ -119,11 +133,7 @@ https://youtu.be/R-_DU73UH8Q
 </p>
 <br>
       
-<p align="center" >
-    <br>
-    __________________________
-    <br>
-</p>  
+---
 <br>
 
 <h2 align="center">⚡️ Atlas MD Platform Compatibility ⚡️
@@ -145,6 +155,9 @@ https://youtu.be/R-_DU73UH8Q
 | <b>Termux ( Useless for all Bots)<b> | :x: |:x:|
 
 <br><br>
+
+---
+<br>
 
 <h2 align="center">🎀 Key Features 🎀
 </h2>
@@ -196,7 +209,10 @@ https://youtu.be/R-_DU73UH8Q
 
 <br>
 
-<h2 align="center">🧩 UserLand Deployment Method ( Not Recommented! Use Repl.it insted! ) 🧩
+---
+<br>
+
+<h2 align="center">🧩 UserLand Deployment Method ( Not Recommented!) 🧩
 </h2>
 
 #### ⚜️ Download `UserLand` application old version ( 3.1.2 ) from [Here](https://m.apkpure.com/userland-linux-on-android/tech.ula/variant/3.1.2-APK).
@@ -273,6 +289,8 @@ npm start
 #### ⚜️ Note as UserLand is a physical server so you must keep on your internet connection active to make sure bot works. Otherwise bot will be down.
 <br><br>
 
+---
+<br>
 
 <h2 align="center">🧩 CMD / VS Code / Powershell / Terminal Deployment Method 🧩
 </h2>
@@ -296,6 +314,9 @@ npm start
 
 Note: If you don't pre-install these plugins before CMD / VS code Installation bot will not start!
 </br> 
+
+---
+<br>
 
 <h2 align="center">🧣 Contributors 🧣
 </h2>
@@ -327,7 +348,8 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 
 <br>
 
-
+---
+<br>
 
 <h2 align="center">🔰 Meet Team Atlas 🔰
 </h2>
