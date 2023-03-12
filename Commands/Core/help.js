@@ -629,8 +629,8 @@ Here's the list of my Commands.\n
           type: 1,
         },
         {
-          buttonId: `${prefix}repo`,
-          buttonText: { displayText: "🧩 Source Code 🧩" },
+          buttonId: `${prefix}support`,
+          buttonText: { displayText: "🧩 Support 🧩" },
           type: 1,
         },
         {
