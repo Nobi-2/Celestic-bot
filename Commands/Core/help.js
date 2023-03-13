@@ -54,6 +54,8 @@ module.exports = {
         };
         const uptime = () => formatTime(process.uptime());
 
+const now = new Date();
+      const hour = now.getHours();
       let textHelpMenu = `Konnichiwa *${pushName}* Senpai,
 
 I am *${botName}*, a bot Edited by *Team Celestic*.
