@@ -60,11 +60,11 @@ const now = new Date();
       
        if (hour >= 0 && hour < 12) {
         greeting = "Ohayou gozaimasu"; //good morning
-      } else if (hour >= 12 && hour < 18) {
+       } else if (hour >= 12 && hour < 18) {
         greeting = "Konnichiwa"; //good afternoon
-      } else {
+       } else {
         greeting = "Konbanwa"; //good evening
-      }
+       }
       let textHelpMenu = `${greeting} *${pushName}* Senpai,
 
 I am *${botName}*, a bot Edited by *Team Celestic*.
