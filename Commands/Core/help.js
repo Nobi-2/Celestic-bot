@@ -660,5 +660,5 @@ Here's the list of my Commands.\n
 
       await Miku.sendMessage(m.from, buttonMessage, { quoted: m });
     }
-  },
+  }
 };
