@@ -65,7 +65,7 @@ const now = new Date();
       } else {
         greeting = "Konbanwa"; //good evening
       }
-      let textHelpMenu = `Konnichiwa *${pushName}* Senpai,
+      let textHelpMenu = `${greeting} *${pushName}* Senpai,
 
 I am *${botName}*, a bot Edited by *Team Celestic*.
 
