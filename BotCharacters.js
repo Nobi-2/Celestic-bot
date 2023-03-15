@@ -299,7 +299,7 @@ global.charID20 = {
   botImage2 : "https://i.imgur.com/MaX2h7X.jpeg",
   botImage3 : "https://i.imgur.com/2wJQi67.jpeg",
   botImage4 : "https://i.imgur.com/xOtoOjy.jpeg",
-  botImage5 : "https://images6.alphacoders.com/124/1247977.jpg",
-  botImage6 : "https://images2.alphacoders.com/125/1251795.jpg",
+  botImage5 : "https://i.imgur.com/3cf8TOK.jpeg",
+  botImage6 : "https://i.imgur.com/rgbftcg.jpeg",
 }
  
