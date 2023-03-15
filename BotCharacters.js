@@ -52,7 +52,7 @@
 17 --- Yor
 18 --- Shinbou
 19 --- Eiko
-
+20 --- Hinata
 Image Source: https://wall.alphacoders.com/
 Image Source: https://wallpapercave.com/
 Video Host: https://graph.org/
@@ -295,10 +295,10 @@ global.charID19 = {
 global.charID20 = {
   botName : "Hinata MD",
   botVideo : "https://graph.org/file/e37de72ca1382b88c49b3.mp4",
-  botImage1 : "https://images8.alphacoders.com/122/1229829.jpg",
-  botImage2 : "https://images2.alphacoders.com/123/1234944.png",
-  botImage3 : "https://images5.alphacoders.com/123/1235274.jpg",
-  botImage4 : "https://images6.alphacoders.com/126/1260043.png",
+  botImage1 : "https://i.imgur.com/PZfXuPo.jpg",
+  botImage2 : "https://i.imgur.com/MaX2h7X.jpeg",
+  botImage3 : "https://i.imgur.com/2wJQi67.jpeg",
+  botImage4 : "https://i.imgur.com/xOtoOjy.jpeg",
   botImage5 : "https://images6.alphacoders.com/124/1247977.jpg",
   botImage6 : "https://images2.alphacoders.com/125/1251795.jpg",
 }
