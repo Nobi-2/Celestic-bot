@@ -29,7 +29,7 @@ module.exports = {
         'https://images4.alphacoders.com/972/972790.jpg',
         'https://images7.alphacoders.com/123/1236729.jpg',
         'https://wallpapercave.com/wp/wp4650481.jpg',
-        'https://images8.alphacoders.com/122/1229829.jpg'
+        'https://images8.alphacoders.com/122/1229829.jpg',
         'https://wallpapercave.com/wp/wp4440860.jpg'
     ];
 
