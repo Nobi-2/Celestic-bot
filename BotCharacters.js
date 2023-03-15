@@ -292,9 +292,9 @@ global.charID19 = {
   botImage6 : "https://images2.alphacoders.com/125/1251795.jpg",
 }
 
-global.charID19 = {
+global.charID20 = {
   botName : "Hinata MD",
-  botVideo : "https://graph.org/file/7f99357fec0f000c7ab0a.mp4",
+  botVideo : "https://graph.org/file/e37de72ca1382b88c49b3.mp4",
   botImage1 : "https://images8.alphacoders.com/122/1229829.jpg",
   botImage2 : "https://images2.alphacoders.com/123/1234944.png",
   botImage3 : "https://images5.alphacoders.com/123/1235274.jpg",
