@@ -43,10 +43,10 @@ module.exports = {
 17 --- Yor
 18 --- Shinbou
 19 --- Eiko
-
+20 --- Hinata
 */
 
-      let botNames = ['Atlas MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD']
+      let botNames = ['Celestic MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD','Hinata MD']
       let botLogos =[
         'https://wallpapercave.com/wp/wp5924545.jpg',
         'https://wallpapercave.com/wp/wp11253614.jpg',
@@ -67,7 +67,8 @@ module.exports = {
         'https://images4.alphacoders.com/972/972790.jpg',
         'https://images7.alphacoders.com/123/1236729.jpg',
         'https://wallpapercave.com/wp/wp4650481.jpg',
-        'https://images8.alphacoders.com/122/1229829.jpg'
+        'https://images8.alphacoders.com/122/1229829.jpg',
+        'https://wallpapercave.com/wp/wp4440860.jpg'
       ]
 
       await mkchar.findOne({id:'1'}).then(async (charInfo) => {
@@ -204,6 +205,12 @@ module.exports = {
             }).catch(error => {
                 return m.reply(`An error occurred while updating the character number.`)
             })}
+        else if (charNum == '20') {
+            await mkchar.findOneAndUpdate({ id: '1' }, { $set: { seletedCharacter: charNum } }, { new: true }).then(async(res) => {
+                await Miku.sendMessage(m.from, { image: {url:botLogos[charNum]},caption: `Character number ${charNum} - ${botNames[charNum]} is now the default character.\n` }, { quoted: m })
+            }).catch(error => {    
+                return m.reply(`An error occurred while updating the character number.`)
+            })}   
         else {
             return m.reply(`Character number ${charNum} is not added.\n\ntype *${prefix}charlist* to see the list of added characters.`);
         }
