@@ -30,14 +30,15 @@ module.exports = {
         'https://images7.alphacoders.com/123/1236729.jpg',
         'https://wallpapercave.com/wp/wp4650481.jpg',
         'https://images8.alphacoders.com/122/1229829.jpg'
+        'https://wallpapercave.com/wp/wp4440860.jpg'
     ];
 
     let randomimage = botLogos[Math.floor(Math.random() * botLogos.length)];
    
     let sections = [] 
-    let chars = ['Atlas MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD']
-    let buttonDesc =[`Set bot character to Atlas MD`, `Set bot character to Power MD`, `Set bot character to Makima MD`, `Set bot character to Denji MD`, `Set bot character to Zero Two`, `Set bot character to Chika MD`, `Set bot character to Miku MD`, `Set bot character to Marin MD`, `Set bot character to Ayanokoji MD`, `Set bot character to Ruka MD`, `Set bot character to Mizuhara MD`, `Set bot character to Rem MD`, `Set bot character to Sumi MD`, `Set bot character to Kaguya MD`, `Set bot character to Yumeko MD`, `Set bot character to Kurumi MD`, `Set bot character to Mai MD`, `Set bot character to Yor MD`, `Set bot character to Shinbou MD`, `Set bot character to Eiko MD`]
-    let buttonTexts = [`${prefix}setchar 0`, `${prefix}setchar 1`, `${prefix}setchar 2`, `${prefix}setchar 3`, `${prefix}setchar 4`, `${prefix}setchar 5`, `${prefix}setchar 6`, `${prefix}setchar 7`, `${prefix}setchar 8`, `${prefix}setchar 9`, `${prefix}setchar 10`, `${prefix}setchar 11`, `${prefix}setchar 12`, `${prefix}setchar 13`, `${prefix}setchar 14`, `${prefix}setchar 15`, `${prefix}setchar 16`, `${prefix}setchar 17`, `${prefix}setchar 18`, `${prefix}setchar 19`]
+    let chars = ['Celestic MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD','Hinata MD']
+    let buttonDesc =[`Set bot character to Celestic MD`, `Set bot character to Power MD`, `Set bot character to Makima MD`, `Set bot character to Denji MD`, `Set bot character to Zero Two`, `Set bot character to Chika MD`, `Set bot character to Miku MD`, `Set bot character to Marin MD`, `Set bot character to Ayanokoji MD`, `Set bot character to Ruka MD`, `Set bot character to Mizuhara MD`, `Set bot character to Rem MD`, `Set bot character to Sumi MD`, `Set bot character to Kaguya MD`, `Set bot character to Yumeko MD`, `Set bot character to Kurumi MD`, `Set bot character to Mai MD`, `Set bot character to Yor MD`, `Set bot character to Shinbou MD`, `Set bot character to Eiko MD`, `Set bot character to Hinata MD`]
+    let buttonTexts = [`${prefix}setchar 0`, `${prefix}setchar 1`, `${prefix}setchar 2`, `${prefix}setchar 3`, `${prefix}setchar 4`, `${prefix}setchar 5`, `${prefix}setchar 6`, `${prefix}setchar 7`, `${prefix}setchar 8`, `${prefix}setchar 9`, `${prefix}setchar 10`, `${prefix}setchar 11`, `${prefix}setchar 12`, `${prefix}setchar 13`, `${prefix}setchar 14`, `${prefix}setchar 15`, `${prefix}setchar 16`, `${prefix}setchar 17`, `${prefix}setchar 18`, `${prefix}setchar 19`, `${prefix}setchar 20`]
     
     for (let i = 0; i < chars.length; i++) {
         const list = {title: `${prefix}setchar ${i}`,
