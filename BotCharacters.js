@@ -53,6 +53,8 @@
 18 --- Shinbou
 19 --- Eiko
 20 --- Hinata
+21 --- Itachi
+22 --- Naruto
 
 Image Source: https://wall.alphacoders.com/
 Image Source: https://wallpapercave.com/
@@ -303,4 +305,26 @@ global.charID20 = {
   botImage5 : "https://i.imgur.com/3cf8TOK.jpeg",
   botImage6 : "https://i.imgur.com/rgbftcg.jpeg",
 }
- 
+
+global.charID21 = {
+  botName : "Itachi MD",
+  botVideo : "https://graph.org/file/e37de72ca1382b88c49b3.mp4",
+  botImage1 : "https://i.imgur.com/PZfXuPo.jpg",
+  botImage2 : "https://i.imgur.com/MaX2h7X.jpeg",
+  botImage3 : "https://i.imgur.com/2wJQi67.jpeg",
+  botImage4 : "https://i.imgur.com/xOtoOjy.jpeg",
+  botImage5 : "https://i.imgur.com/3cf8TOK.jpeg",
+  botImage6 : "https://i.imgur.com/rgbftcg.jpeg",
+}
+
+global.charID22 = {
+  botName : "Naruto MD",
+  botVideo : "https://graph.org/file/e37de72ca1382b88c49b3.mp4",
+  botImage1 : "https://i.imgur.com/PZfXuPo.jpg",
+  botImage2 : "https://i.imgur.com/MaX2h7X.jpeg",
+  botImage3 : "https://i.imgur.com/2wJQi67.jpeg",
+  botImage4 : "https://i.imgur.com/xOtoOjy.jpeg",
+  botImage5 : "https://i.imgur.com/3cf8TOK.jpeg",
+  botImage6 : "https://i.imgur.com/rgbftcg.jpeg",
+}
+
