@@ -308,23 +308,23 @@ global.charID20 = {
 
 global.charID21 = {
   botName : "Itachi MD",
-  botVideo : "https://graph.org/file/e37de72ca1382b88c49b3.mp4",
-  botImage1 : "https://i.imgur.com/PZfXuPo.jpg",
-  botImage2 : "https://i.imgur.com/MaX2h7X.jpeg",
-  botImage3 : "https://i.imgur.com/2wJQi67.jpeg",
-  botImage4 : "https://i.imgur.com/xOtoOjy.jpeg",
-  botImage5 : "https://i.imgur.com/3cf8TOK.jpeg",
-  botImage6 : "https://i.imgur.com/rgbftcg.jpeg",
+  botVideo : "https://graph.org/file/1cc41c9f5372f8e1ed020.mp4",
+  botImage1 : "https://wallpapercave.com/w/wp8641536.jpg",
+  botImage2 : "https://wallpapercave.com/w/wp10509614.jpg",
+  botImage3 : "https://wallpapercave.com/w/wp5833746.jpg",
+  botImage4 : "https://i.imgur.com/3f4OCaT.png",
+  botImage5 : "https://wallpapercave.com/w/wp10552829.jpg",
+  botImage6 : "https://wallpapercave.com/w/wp9048321.jpg",
 }
 
 global.charID22 = {
   botName : "Naruto MD",
-  botVideo : "https://graph.org/file/e37de72ca1382b88c49b3.mp4",
-  botImage1 : "https://i.imgur.com/PZfXuPo.jpg",
-  botImage2 : "https://i.imgur.com/MaX2h7X.jpeg",
-  botImage3 : "https://i.imgur.com/2wJQi67.jpeg",
-  botImage4 : "https://i.imgur.com/xOtoOjy.jpeg",
-  botImage5 : "https://i.imgur.com/3cf8TOK.jpeg",
-  botImage6 : "https://i.imgur.com/rgbftcg.jpeg",
+  botVideo : "https://graph.org/file/ec6c7d289740c63e99d03.mp4",
+  botImage1 : "https://i.imgur.com/Jl5wNPV.jpeg",
+  botImage2 : "https://wallpapercave.com/w/wp11863118.jpg",
+  botImage3 : "https://wallpapercave.com/w/wp11973779.jpg",
+  botImage4 : "https://wallpapercave.com/w/wp10541399.jpg",
+  botImage5 : "https://wallpapercave.com/w/wp2581456.jpg",
+  botImage6 : "https://wallpapercave.com/w/wp10541568.jpg",
 }
 
