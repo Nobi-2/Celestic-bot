@@ -216,6 +216,18 @@ module.exports = {
             }).catch(error => {    
                 return m.reply(`An error occurred while updating the character number.`)
             })}   
+        else if (charNum == '21') {
+            await mkchar.findOneAndUpdate({ id: '1' }, { $set: { seletedCharacter: charNum } }, { new: true }).then(async(res) => {
+                await Miku.sendMessage(m.from, { image: {url:botLogos[charNum]},caption: `Character number ${charNum} - ${botNames[charNum]} is now the default character.\n` }, { quoted: m })
+            }).catch(error => {    
+                return m.reply(`An error occurred while updating the character number.`)
+            })}   
+         else if (charNum == '22') {
+            await mkchar.findOneAndUpdate({ id: '1' }, { $set: { seletedCharacter: charNum } }, { new: true }).then(async(res) => {
+                await Miku.sendMessage(m.from, { image: {url:botLogos[charNum]},caption: `Character number ${charNum} - ${botNames[charNum]} is now the default character.\n` }, { quoted: m })
+            }).catch(error => {    
+                return m.reply(`An error occurred while updating the character number.`)
+            })}    
         else {
             return m.reply(`Character number ${charNum} is not added.\n\ntype *${prefix}charlist* to see the list of added characters.`);
         }
