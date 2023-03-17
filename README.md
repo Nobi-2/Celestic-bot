@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center"> 
-<b>Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="https://github.com/nobi-2">Nobita</a> and his team "celestic" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
+<b>Konnichiwa Senpai, I am "celestic" an Opensource WhatsApp bot made by <a href="https://github.com/nobi-2">Nobita</a> and his team "celestic" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
 
 <h3 align="center"> celestic md - The Future Is Here
 </h4>
