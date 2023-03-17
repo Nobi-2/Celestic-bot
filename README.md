@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center"> 
-<b>Konnichiwa Senpai, I am "celestic" an Opensource WhatsApp bot made by <a href="https://github.com/nobi-2">Nobita</a> and his team "celestic" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
+<b>Konnichiwa Senpai, I am "celestic" an Opensource WhatsApp bot made by lucky <a href="https://github.com/nobi-2">Nobita</a> and his team "celestic" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
 
 <h3 align="center"> celestic md - The Future Is Here
 </h4>
@@ -128,7 +128,7 @@ https://youtu.be/R-_DU73UH8Q
 </h4>
 
 <p align="center" >
-<a href="https://chat.whatsapp.com/D4EsvpDVGJT8WbxJVlSwWn"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="140px">
+<a href="https://chat.whatsapp.com/CyK9zgUyl4A3AioKTafDPJ"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="140px">
 </a>
 </p>
 <br>
@@ -136,10 +136,10 @@ https://youtu.be/R-_DU73UH8Q
 ---
 <br>
 
-<h2 align="center">⚡️ Atlas MD Platform Compatibility ⚡️
+<h2 align="center">🐈‍⬛ celestic MD Platform Compatibility 🐈‍⬛
 </h2>
 
-- Atlas offers highest platform compatibility.
+- celestic offers highest platform compatibility.
 - Just deploy and use on your favourite platform.
 - More Platform comaptibility coming soon...
 <br>
@@ -159,7 +159,7 @@ https://youtu.be/R-_DU73UH8Q
 ---
 <br>
 
-<h2 align="center">🎀 Key Features 🎀
+<h2 align="center">🖤 Key Features 🖤
 </h2>
 
 <br>
