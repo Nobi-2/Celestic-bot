@@ -195,7 +195,7 @@ https://youtu.be/R-_DU73UH8Q
 - celestic has `RPG and Economy` which means you can use it as a `RPG Bot` or `Casino Bot`.
 - celestic has `User Banning / Group Banning` which means you can use it as a `Anti Spam Bot`.
 - celestic is a Folder Type bot which represents `Highest Stability`, `Highest Performance` and `Developer / User friendly`.
-- Atlas comes with [MIT](https://github.com/nobi-2/celestic-MD/blob/main/LICENSE.md) License which means you can use it as a `base for your own bot` and can `modify it as you want` and can `add your own features`.
+- celestic comes with [MIT](https://github.com/nobi-2/celestic-MD/blob/main/LICENSE.md) License which means you can use it as a `base for your own bot` and can `modify it as you want` and can `add your own features`.
 
 <br>
 
