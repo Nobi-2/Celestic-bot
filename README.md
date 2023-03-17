@@ -215,9 +215,9 @@ https://youtu.be/R-_DU73UH8Q
 <h2 align="center">🧩 UserLand Deployment Method ( Not Recommented!) 🧩
 </h2>
 
-#### ⚜️ Download `UserLand` application old version ( 3.1.2 ) from [Here](https://m.apkpure.com/userland-linux-on-android/tech.ula/variant/3.1.2-APK).
+#### 🐈‍⬛ Download `UserLand` application old version ( 3.1.2 ) from [Here](https://m.apkpure.com/userland-linux-on-android/tech.ula/variant/3.1.2-APK).
 #### ⚜️ Install `Debian` terminal in userland.
-#### ⚜️ Rename `.env.example` to `.env` and fill in the required details in `.env` file and `config.js` (Mandatory).
+#### 🖤 Rename `.env.example` to `.env` and fill in the required details in `.env` file and `config.js` (Mandatory).
 
 </p>
 
@@ -254,7 +254,7 @@ curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
 yarn add sharp
-cd Atlas-MD
+cd celestic-MD
 npm i
 npm start
 
@@ -354,7 +354,7 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 <h2 align="center">🔰 Meet Team celestic 🔰
 </h2>
 
-[![Nobita](https://github.com/nobi-2.png)](https://github.com/nobi-2) [ig-itz_nobita_18] | [![lucky-kun](https://github.com/lucky01u.png)](https://github.com/lucky01u) | [![Pratyush](https://github.com/pratyush4932.png)](https://github.com/pratyush4932) | [![Devime](https://github.com/Devime69.png)](https://github.com/Devime69) | [![Kai](https://github.com/Kai0071.png)](https://github.com/Kai0071) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
+[![Nobita](https://github.com/nobi-2.png)](https://github.com/nobi-2) [ig-itz_nobita_18] | [![lucky-kun](https://github.com/lucky01u.png)](https://github.com/lucky01u)[Lucky] | [![shisui](https://github.com/pratyush4932.png)](https://github.com/pratyush4932) | [![Devime](https://github.com/Devime69.png)](https://github.com/Devime69) | [![Kai](https://github.com/Kai0071.png)](https://github.com/Kai0071) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
 ----|----|----|----|----|----
-[FantoX](https://github.com/FantoX001)  | [Ahmii Kun](https://github.com/Ahmii-kun) | [Pratyush](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
+[Nobita](https://github.com/nobi-2)  | [lost Uchiha](https://github.com/lucky 01u) | [Pratyush](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
 Owner, Main Developer, Maintainer, Dubugger  | Co-Developer, Co-Maintainer | Support Developer, Modules | Designing, API Maintainer | Ideas, Testing, Re-Checking | Ideas, Testing, Re-Checking
