@@ -356,5 +356,5 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 
 [![Nobita](https://github.com/nobi-2.png)](https://github.com/nobi-2) [ig-itz_nobita_18] | [![lucky-kun](https://github.com/lucky01u.png)](https://github.com/lucky01u)[Lucky] | [![shisui](https://github.com/pratyush4932.png)](https://github.com/pratyush4932) | [![Devime](https://github.com/Devime69.png)](https://github.com/Devime69) | [![Kai](https://github.com/Kai0071.png)](https://github.com/Kai0071) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
 ----|----|----|----|----|----
-[Nobita](https://github.com/nobi-2)  | [lost Uchiha](https://github.com/lucky 01u) | [Pratyush](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
+[Nobita](https://github.com/nobi-2)  | [lost Uchiha](https://github.com/lucky01u) | [shisui](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
 Owner, Main Developer, Maintainer, Dubugger  | Co-Developer, Co-Maintainer | Support Developer, Modules | Designing, API Maintainer | Ideas, Testing, Re-Checking | Ideas, Testing, Re-Checking
