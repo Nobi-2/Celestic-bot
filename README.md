@@ -1,21 +1,21 @@
 <p align="center">
-<a href="https://github.com/FantoX001/Atlas-MD">
-    <img src="https://i.imgur.com/MClOeqe.jpeg">
+<a href="https://github.com/lucky01u/Celestic-bot">
+    <img src="https://ibb.co/HCZtSnP ">
   </a>
 
-<h1 align="center"> Atlas MD
+<h1 align="center"> celestic MD
 </h1>
 
 <p align="center"> 
-<b>Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="https://github.com/FantoX001">FantoX</a> and his team "Atlas" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
+<b>Konnichiwa Senpai, I am "Atlas" an Opensource WhatsApp bot made by <a href="https://github.com/nobi-2">Nobita</a> and his team "celestic" to do everything that's beyond imagination with highest <b>Features</b> and <b>Stability</b> and <b>Compatibility</b> built with Baileys Multi Device support.
 
-<h3 align="center"> Atlas MD - The Future Is Here
+<h3 align="center"> celestic md - The Future Is Here
 </h4>
 
 <br>
 
 <p align="center">
-  <a href="https://github.com/FantoX001/Atlas-MD/fork">
+  <a href="https://github.com/lucky01u/Celestic-bot">
     <img src="https://img.shields.io/github/forks/FantoX001/Atlas-MD?label=Fork&style=social">
     
     
@@ -25,7 +25,7 @@
 
 <br>
 
-<a href="https://github.com/FantoX001/Atlas-MD">
+<a href="https://github.com/lucky01u/Celestic-bot">
     <img src="https://visitor-badge.glitch.me/badge?page_id=https://github.com/FantoX001/Atlas-MD.visitor-badge&left_text=Total%20People%20Visited">
   </a>
   <br><br>
@@ -33,7 +33,7 @@
 <p align="center">
 <a href="https://github.com/FantoX001"><img title="Author" src="https://img.shields.io/badge/Author-Team Atlas-orange.svg?style=for-the-badge&logo=github"></a>
 
- <a href="https://github.com/FantoX001/Atlas-MD/blob/main/LICENSE.md">
+ <a href="https://github.com/nobi-2/celestic-MD/blob/main/LICENSE.md">
   
 <img src='https://img.shields.io/github/license/FantoX001/Atlas-MD?color=%231e81b0&style=for-the-badge'>
 
@@ -179,23 +179,23 @@ https://youtu.be/R-_DU73UH8Q
 <br>
 
 
-<h2 align="center">〽️ Why Should You Use Atlas as your Base 〽️
+<h2 align="center">〽️ Why Should You Use celestic as your Base 〽️
 </h2>
 
 <br>
 
-- Atlas is a `fully open source` bot which means `no copyright`.
-- Atlas is a `multi character bot` which means you can `change bot's character` to any of the 8 added characters or add more characters by yourself.
-- Atlas is a `multi database bot` which means you can use 3 different databases at the same time.
-- Atlas is a `multi mode` bot which means you can use it in `Self / Public / Private` mode.
-- Atlas has a pre installed chatbot which means you can use it as a `group chatbot and dm chatbot`.
-- Atlas has `Highest NSFW (100+)` which means you can use it as a `nsfw bot`.
-- Atlas has 300+ commands.
-- Atlas doesn't store your `Session File` locally which means it's `safe` and `secure`.
-- Atlas has `RPG and Economy` which means you can use it as a `RPG Bot` or `Casino Bot`.
-- Atlas has `User Banning / Group Banning` which means you can use it as a `Anti Spam Bot`.
-- Atlas is a Folder Type bot which represents `Highest Stability`, `Highest Performance` and `Developer / User friendly`.
-- Atlas comes with [MIT](https://github.com/FantoX001/Atlas-MD/blob/main/LICENSE.md) License which means you can use it as a `base for your own bot` and can `modify it as you want` and can `add your own features`.
+- celestic is a `fully open source` bot which means `no copyright`.
+- celestic is a `multi character bot` which means you can `change bot's character` to any of the 22 added characters or add more characters by yourself.
+- celestic is a `multi database bot` which means you can use 3 different databases at the same time.
+- celestic is a `multi mode` bot which means you can use it in `Self / Public / Private` mode.
+- celestic has a pre installed chatbot which means you can use it as a `group chatbot and dm chatbot`.
+- celestic has `Highest NSFW (100+)` which means you can use it as a `nsfw bot`.
+- celestic has 300+ commands.
+- celestic doesn't store your `Session File` locally which means it's `safe` and `secure`.
+- celestic has `RPG and Economy` which means you can use it as a `RPG Bot` or `Casino Bot`.
+- celestic has `User Banning / Group Banning` which means you can use it as a `Anti Spam Bot`.
+- celestic is a Folder Type bot which represents `Highest Stability`, `Highest Performance` and `Developer / User friendly`.
+- Atlas comes with [MIT](https://github.com/nobi-2/celestic-MD/blob/main/LICENSE.md) License which means you can use it as a `base for your own bot` and can `modify it as you want` and can `add your own features`.
 
 <br>
 
@@ -236,10 +236,10 @@ sudo apt install wget
 sudo apt install npm
 sudo apt install imagemagick
 
-git clone https://github.com/FantoX001/Atlas-MD
+git clone https://github.com/lucky01u/Celestic-bot
 
 ls
-cd Atlas-MD
+cd celestic-MD
 npm i
 
 
@@ -259,7 +259,7 @@ npm i
 npm start
 
 ``` 
-- Note in `git clone <my bot's repo>` section your can use Your customised bot's github link too (For that make sure you [Forked](https://github.com/FantoX001/Atlas-MD/fork) this repo and modified `.env` file and `config.js`).
+- Note in `git clone <my bot's repo>` section your can use Your customised bot's github link too (For that make sure you [Forked](https://github.com/nobi-2/celestic-MD/fork) this repo and modified `.env` file and `config.js`).
 - This method will work on most other bots too.
 
 #### 📌 To stop a bot in Userland
@@ -279,7 +279,7 @@ npm start
 - Then open `UserLand` and run these commands one-by-one:
 
 ```
-cd Atlas-MD
+cd celestic-MD
 git fetch origin
 git merge origin/main
 npm start
@@ -354,7 +354,7 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 <h2 align="center">🔰 Meet Team celestic 🔰
 </h2>
 
-[![Fantox](https://github.com/FantoX001.png)](https://github.com/FantoX001)  | [![Ahmii-kun](https://github.com/Ahmii-kun.png)](https://github.com/Ahmii-kun) | [![Pratyush](https://github.com/pratyush4932.png)](https://github.com/pratyush4932) | [![Devime](https://github.com/Devime69.png)](https://github.com/Devime69) | [![Kai](https://github.com/Kai0071.png)](https://github.com/Kai0071) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
+[![Nobita](https://github.com/nobi-2.png)](https://github.com/nobi-2)  | [![Ahmii-kun](https://github.com/Ahmii-kun.png)](https://github.com/Ahmii-kun) | [![Pratyush](https://github.com/pratyush4932.png)](https://github.com/pratyush4932) | [![Devime](https://github.com/Devime69.png)](https://github.com/Devime69) | [![Kai](https://github.com/Kai0071.png)](https://github.com/Kai0071) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
 ----|----|----|----|----|----
 [FantoX](https://github.com/FantoX001)  | [Ahmii Kun](https://github.com/Ahmii-kun) | [Pratyush](https://github.com/pratyush4932) | [Devime](https://github.com/Devime69) | [Kai](https://github.com/Kai0071) | [Jayjay Ops](https://github.com/jayjay-ops)
 Owner, Main Developer, Maintainer, Dubugger  | Co-Developer, Co-Maintainer | Support Developer, Modules | Designing, API Maintainer | Ideas, Testing, Re-Checking | Ideas, Testing, Re-Checking
