@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/lucky01u/Celestic-bot">
-    <img src="https://ibb.co/HCZtSnP ">
+    <img src="https://ibb.co/HCZtSnP">
   </a>
 
 <h1 align="center"> celestic MD
@@ -16,11 +16,11 @@
 
 <p align="center">
   <a href="https://github.com/lucky01u/Celestic-bot">
-    <img src="https://img.shields.io/github/forks/FantoX001/Atlas-MD?label=Fork&style=social">
+    <img src="https://img.shields.io/github/forks/nobi-2/celestic-MD?label=Fork&style=social">
+   
     
-    
-  <a href="https://github.com/FantoX001/Atlas-MD/stargazers">
-    <img src="https://img.shields.io/github/stars/FantoX001/Atlas-MD?style=social">
+  <a href="https://github.com/nobi-2/celestic-MD/stargazers">
+    <img src="https://img.shields.io/github/stars/nobi-2/celestic-MD?style=social">
   </a>
 
 <br>
