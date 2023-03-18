@@ -31,7 +31,7 @@
   <br><br>
   
 <p align="center">
-<a href="https://github.com/FantoX001"><img title="Author" src="https://img.shields.io/badge/Author-Team Atlas-orange.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/lucky01u"><img title="Author" src="https://img.shields.io/badge/Author-Team celestic-orange.svg?style=for-the-badge&logo=github"></a>
 
  <a href="https://github.com/nobi-2/celestic-MD/blob/main/LICENSE.md">
   
