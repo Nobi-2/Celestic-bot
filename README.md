@@ -356,5 +356,5 @@ Note: If you don't pre-install these plugins before CMD / VS code Installation b
 
 [![Nobita](https://github.com/nobi-2.png)](https://github.com/nobi-2) [ig-itz_nobita_18] | [![lucky-kun](https://github.com/lucky01u.png)](https://github.com/lucky01u)[Lucky] | [![shisui](https://github.com/Kingshisui00.png)](https://github.com/Kingshisui00)[shisui] | [![itadori](https://github.com/HIROITADORI72.png)](https://github.com/HIROITADORI72) | [![Kid-sama](https://github.com/Faacelessrapper.png)](https://github.com/Faacelessrapper) | [![JayJay Ops](https://github.com/jayjay-ops.png)](https://github.com/jayjay-ops)
 ----|----|----|----|----|----
-[Nobita](https://github.com/nobi-2)  | [lost Uchiha](https://github.com/lucky01u) | [shisui](https://github.com/Kingshisui00) | [Devime](https://github.com/HIROITADORI72) | [Kid-sama](https://github.com/Faacelessrapper) | [JayjayOps](https://github.com/jayjay-ops)
-Owner, co-devloper, Maintainer, Dubugger  | main-devlper, Co-Maintainer | Support Developer, Modules | Designing, API Maintainer | Ideas, Testing, Re-Checking | Ideas, Testing, Re-Checking
+[Nobita](https://github.com/nobi-2)  | [lost Uchiha](https://github.com/lucky01u) | [shisui](https://github.com/Kingshisui00) | [Hiro](https://github.com/HIROITADORI72) | [Kid-sama](https://github.com/Faacelessrapper) | [Nobita](https://github.com/jayjay-ops)
+Owner, co-devloper, Maintainer, Dubugger  | main-devlper, Maintainer | Support Developer, Modules | Designing, API Maintainer | Ideas, Testing, Re-Checking | Ideas, Testing, Re-Checking
