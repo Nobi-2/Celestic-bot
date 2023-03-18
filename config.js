@@ -44,7 +44,7 @@ global.sessionId = process.env.SESSION_ID || "L2";
 global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyBgZ1LpfjhwHRK9LBSa9uUrfM1rid4ifIM";
-global.packname = process.env.PACKNAME || `𝙊𝙗𝙞𝙩𝙤`;
+global.packname = "𝄟✮͢🦋⃟≛⃝ .⃟✮⃝ Obito𝄟⃝ 𝄟✮⃝⃝💞";
 global.author = process.env.AUTHOR || "☠⃝𝐓𝐡𝐞☠𝐋𝐨𝐬𝐭☠𝐔𝐜𝐡𝐢𝐡𝐚";
 global.port = process.env.PORT || "8000";
 
