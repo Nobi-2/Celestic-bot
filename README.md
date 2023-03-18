@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/lucky01u/Celestic-bot">
-    <img src="https://ibb.co/HCZtSnP">
+    <img src="https://i.imgur.com/LLazhhr".jpeg>
   </a>
 
 <h1 align="center"> celestic MD
