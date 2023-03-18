@@ -55,7 +55,7 @@
 20 --- Hinata
 21 --- Itachi
 22 --- Naruto
-
+23 --- ɳσႦιƚα 
 Image Source: https://wall.alphacoders.com/
 Image Source: https://wallpapercave.com/
 Video Host: https://graph.org/
