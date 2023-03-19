@@ -11,7 +11,7 @@ module.exports = {
     desc: "Shows Wallet.",
     alias: ["wallet"], 
     category: "Economy",  
-    react: "💲", 
+    react: "👝", 
     start: async ( 
         Miku, 
       m, 
