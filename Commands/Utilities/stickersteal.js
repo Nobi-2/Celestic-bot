@@ -6,7 +6,7 @@ module.exports = {
     desc: "To steal a sticker",
     category: "Utilities",
     usage: "steal <reply to sticker>",
-    react: "🍁",
+    react: "🥷",
     start: async (Miku, m, { text, prefix,quoted,pushName,mime,args }) => {
         if(!args.join(" ")){
             var packName = pushName;
@@ -26,7 +26,7 @@ module.exports = {
                 pack: packName,
                 author: authorName,
                 type: StickerTypes.FULL,
-                categories: ['🤩', '🎉'],
+                categories: ['🐈‍⬛', '🖤],
                 id: '12345',
                 quality: 70,
                 background: 'transparent'
