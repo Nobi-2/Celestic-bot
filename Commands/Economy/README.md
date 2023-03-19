@@ -1,4 +1,4 @@
-<h1 align="center">🎀 Economy Usage Rules 🎀
+<h1 align="center">🌸 Economy Usage Rules 🌸
 </h1>
 
 <br>
