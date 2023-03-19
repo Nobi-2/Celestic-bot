@@ -6,7 +6,7 @@ module.exports = {
     desc: "To make square sized sticker",
     category: "Utilities",
     usage: "scrop <reply to image>",
-    react: "🍁",
+    react: "✂️",
     start: async (Miku, m, { text, prefix,quoted,pushName,mime,body }) => {
         if (/image/.test(mime)) {
             let mediaMess = await quoted.download();
@@ -14,7 +14,7 @@ module.exports = {
                 pack: packname,
                 author: pushName,
                 type: StickerTypes.CROPPED,
-                categories: ['🤩', '🎉'],
+                categories: ['🐈‍⬛', '🖤'],
                 id: '12345',
                 quality: 70,
                 background: 'transparent'
@@ -29,7 +29,7 @@ module.exports = {
                 pack: packname,
                 author: pushName,
                 type: StickerTypes.CROPPED,
-                categories: ['🤩', '🎉'],
+                categories: ['🐈‍⬛', '🖤'],
                 id: '12345',
                 quality: 70,
                 background: 'transparent'
