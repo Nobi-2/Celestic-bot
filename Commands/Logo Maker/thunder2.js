@@ -4,7 +4,7 @@ module.exports = {
     name: "thunder2",
     alias: ["thd2"],
     desc: "Make text logo.",
-    react: "🍁",
+    react: "⚡",
     category: "Logo Maker",
     start: async(Miku, m,{pushName,prefix,text}) => {
         if(!text) return m.reply(`Example: *${prefix}thunder2 Atlas Bot*`);
