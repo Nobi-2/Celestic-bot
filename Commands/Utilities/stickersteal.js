@@ -26,7 +26,7 @@ module.exports = {
                 pack: packName,
                 author: authorName,
                 type: StickerTypes.FULL,
-                categories: ['🐈‍⬛', '🖤],
+                categories: ['🐈‍⬛', '🖤'],
                 id: '12345',
                 quality: 70,
                 background: 'transparent'
