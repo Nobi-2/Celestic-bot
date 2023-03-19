@@ -5,7 +5,7 @@ module.exports = {
   alias: ["question"],
   desc: "To get some question answers.",
   usage: "question easy/medium/hard",
-  react: "🍁",
+  react: "🐾",
   category: "Essentials",
   start: async (Miku, m, { pushName, prefix, args, text }) => {
     if (!args[0])
