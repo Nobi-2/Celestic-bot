@@ -6,7 +6,7 @@ module.exports = {
   desc: "To get Pinterest image search result",
   category: "Search",
   usage: `pin <search term>`,
-  react: "🍁",
+  react: "📎",
   start: async (Miku, m, { text, prefix, args }) => {
     if (!args[0])
       return Miku.sendMessage(
@@ -27,7 +27,7 @@ module.exports = {
           },
         ];
 
-        let txt = `     *『  Pinterest Search Engine  』*\n\n_🎀 Search Term:_ *${PinsearchTerm}*\n`;
+        let txt = `     *『  Pinterest Search Engine  』*\n\n_🌸 Search Term:_ *${PinsearchTerm}*\n`;
         let buttonMessage = {
           image: { url: imgnyee },
           caption: txt,
