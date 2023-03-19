@@ -4,7 +4,7 @@ module.exports = {
     name: "couplepp",
     alias: ["ppcouple"],
     desc: "Get matching couple profile picture.",
-    react: "💞",
+    react: "🖤",
     category: "Core",
     start: async(Miku, m,{pushName,prefix}) => {
         let shibam = await axios.get('https://neko-couple-api.onrender.com');
