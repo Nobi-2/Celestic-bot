@@ -20,7 +20,7 @@ module.exports = {
     if (!text && !m.quoted) {
       return Miku.sendMessage(
         m.from,
-        { text: `Please tag any user ${pushName} senpai 🤦‍♂️ !` },
+        { text: `Please tag any user ${pushName} senpai 👺 !` },
         { quoted: m }
       );
     } else if (m.quoted) {
@@ -42,7 +42,7 @@ module.exports = {
         const balance = await eco.balance(user1, cara);
         let a = (balance.wallet) < parseInt(word)
         //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
-        if(a == true) return m.reply("you dont have sufficient money to transfer👎");
+        if(a == true) return m.reply("you dont have sufficient money to transfer🥲");
 
         const deduct = await eco.deduct(user1, cara, value[0]);
         const give = await eco.give(user2, cara, value[0]);
