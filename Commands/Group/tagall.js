@@ -4,7 +4,7 @@ module.exports = {
   desc: "Tag all group member",
   category: "Group",
   usage: "tagall",
-  react: "🍁",
+  react: "🔪",
   start: async (
     Miku,
     m,
@@ -23,7 +23,7 @@ module.exports = {
       ? m.quoted.msg
       : "No Message";
 
-    let mess = `               *『 Attention Here 』*
+    let mess = `               *『 Attention Here🖤 』*
     
 *Tagged by:* @${m.sender.split("@")[0]}
     
