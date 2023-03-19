@@ -4,7 +4,7 @@ module.exports = {
   desc: "Reset group link",
   category: "Group",
   usage: "revoke",
-  react: "🍁",
+  react: "🔗",
   start: async (Miku, m, { prefix, isBotAdmin, isAdmin }) => {
     if (m.from == "120363040838753957@g.us")
       return m.reply(
