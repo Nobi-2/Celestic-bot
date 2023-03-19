@@ -6,7 +6,7 @@ module.exports = {
   desc: "Enable or disable the autoreply feature in a group",
   category: "Mods",
   usage: "pmchatbot [on/off]",
-  react: "🎀",
+  react: "🐈‍⬛",
   start: async (
     Miku,
     m,
