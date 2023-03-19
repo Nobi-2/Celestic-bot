@@ -29,7 +29,7 @@ module.exports = {
     ];
     let bmffg = {
       image: {url: imgURL},
-      caption:  `\n*🦄 Nobita APIs 🌸*\n\n*💦',
+      caption:  `\n*🦄 Nobita APIs 🌸*\n\n*💦/n`,
       footer: `*${botName}*`,
       buttons: Button,
       headerType: 4,
