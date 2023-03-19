@@ -8,7 +8,7 @@ module.exports = {
     desc: "To make sticker meme",
     category: "Utilities",
     usage: "smeme <reply to image>",
-    react: "🍁",
+    react: "🥵",
     start: async (Miku, m, { text, prefix,quoted,pushName,mime,body }) => {
         if (/image/.test(mime)) {
             m.reply(`Chotto Matte...`)
@@ -20,7 +20,7 @@ module.exports = {
                 pack: packname,
                 author: pushName,
                 type: StickerTypes.FULL,
-                categories: ['🤩', '🎉'],
+                categories: ['🐈‍⬛', '🖤'],
                 id: '12345',
                 quality: 70,
                 background: 'transparent'
