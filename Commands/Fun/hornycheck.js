@@ -3,7 +3,7 @@ module.exports = {
   alias: ["horchek"],
   desc: "check",
   cool: 3,
-  react: "😆",
+  react: "🤤",
   category: "Fun",
   start: async (
     Miku,
@@ -24,7 +24,7 @@ module.exports = {
 const dey = shibam(1, 100)
     let Mikutext = `Horny Check Of : @${
       mentionedUser.split("@")[0]
-    }\n\nAnswer : *${dey}%*🤣`;
+    }\n\nAnswer : *${dey}%*🤤`;
 
     Miku.sendMessage(
       m.from,
