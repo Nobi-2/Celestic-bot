@@ -16,7 +16,7 @@ module.exports = {
             { text, prefix, mentionByTag, pushName, isCreator, owner, modStatus } 
   ) => {
         let value = text.trim().split(" ");
-    if (value[0] === "") return m.reply(`Use ${prefix}addgold 100 @user`);
+    if (value[0] === "") return m.reply(`Use ${prefix}removegold 100 @user`);
     if (modStatus == "false" && !isCreator)
       return Miku.sendMessage(
         m.from,
