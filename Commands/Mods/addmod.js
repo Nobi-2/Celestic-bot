@@ -6,7 +6,7 @@ module.exports = {
   desc: "To made an user Mod",
   category: "Mods",
   usage: "addmod @user",
-  react: "🎀",
+  react: "🖱️",
   start: async (
     Miku,
     m,
