@@ -6,7 +6,7 @@ module.exports = {
   desc: "To remove an user from Mod",
   category: "Mods",
   usage: "delmod @user",
-  react: "🎀",
+  react: "💦",
   start: async (
     Miku,
     m,
