@@ -8,7 +8,7 @@ module.exports = {
   cool: 30,
   category: "Media",
   usage: `ytvd <song link>`,
-  react: "🍁",
+  react: "🎥",
   start: async (Miku, m, { text, prefix, args }) => {
     if (!args[0])
       return Miku.sendMessage(
