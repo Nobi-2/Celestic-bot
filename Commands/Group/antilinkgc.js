@@ -6,7 +6,7 @@ module.exports = {
     desc: "Enable or disable the antilink feature in a group",
     category: "Group",
     usage: "antilinkgc [on/off]",
-    react: "🔒",
+    react: "✅",
     start: async (
       Miku,
       m,
