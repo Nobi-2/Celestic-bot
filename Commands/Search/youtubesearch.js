@@ -6,7 +6,7 @@ module.exports = {
   desc: "To search a video on YouTube",
   category: "Search",
   usage: `yts <search term>`,
-  react: "🍁",
+  react: "📹",
   start: async (Miku, m, { text, prefix, args }) => {
     if (!args[0])
       return Miku.sendMessage(
@@ -30,9 +30,9 @@ module.exports = {
       };
       sections.push(list);
     }
-    var txt = `*🏮 YouTube Search Engine 🏮*\n\n_🧩 Search Term:_ *${args.join(
+    var txt = `*🌀 YouTube Search Engine 🌀*\n\n_👀 Search Term:_ *${args.join(
       " "
-    )}*\n\n*📌 Total Results:* *${search.all.length}*\n`;
+    )}*\n\n*🐈‍⬛ Total Results:* *${search.all.length}*\n`;
 
     let buttonMessage = {
       text: txt,
