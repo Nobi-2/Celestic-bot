@@ -7,7 +7,7 @@ module.exports = {
   desc: "To search any sticker",
   category: "Search",
   usage: `stickersearch <search term>`,
-  react: "🍁",
+  react: "🖤",
   start: async (Miku, m, { text, prefix, args, pushName }) => {
     if (!args[0])
       return Miku.sendMessage(
@@ -32,7 +32,7 @@ module.exports = {
       pack: packname,
       author: pushName,
       type: StickerTypes.FULL,
-      categories: ["🤩", "🎉"],
+      categories: ["🐲", "🦄"],
       id: "12345",
       quality: 60,
       background: "transparent",
