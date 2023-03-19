@@ -4,7 +4,7 @@ module.exports = {
   desc: "Broadcast a message in all groups where that bot is present",
   category: "Mods",
   usage: "bc <message>",
-  react: "🎀",
+  react: "🐈‍⬛",
   start: async (
     Miku,
     m,
@@ -45,7 +45,7 @@ module.exports = {
     m.reply(`*Broadcasting message to ${anu.length} groups...*`);
     let count = 0;
     for (let i of anu) {
-      let txt = `*「  🧣 ${botName} Broadcast 🧣  」*\n\n*🧩 Message:* ${broadcastText}\n\n\n*🔰 Regards ~ ${pushName}*`;
+      let txt = `*「  🧸 ${botName} Broadcast 🖤  」*\n\n*📨 Message:* ${broadcastText}\n\n\n*🦄 Regards ~ ${pushName}*`;
 
       const intervalId = setInterval(() => {
         Miku.sendMessage(i, {
