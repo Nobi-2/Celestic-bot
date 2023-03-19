@@ -6,7 +6,7 @@ module.exports = {
   desc: "Ban a group",
   category: "core",
   usage: "bangroup",
-  react: "🎀",
+  react: "🌸",
   start: async (
     Miku,
     m,
