@@ -6,7 +6,7 @@ module.exports = {
   desc: "To make circle sized image",
   category: "Image Manipulation",
   usage: "circle <reply to image>",
-  react: "🍁",
+  react: "⭕",
   start: async (Miku, m, { text, prefix, quoted, pushName, mime, body }) => {
     if (/image/.test(mime)) {
       let mediaMess = await quoted.download();
