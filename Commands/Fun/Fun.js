@@ -30,14 +30,14 @@ module.exports = {
     "mf",
     "introvert",
     "extrovert",
-    "sigma",
+    "sigma", 
     "psycho",
     "brainless",
     "useless",
   ],
   desc: "character fun",
   cool: 2,
-  react: "🤣",
+  react: "😶",
   category: "Fun",
   start: async (Miku, m, { pushName, prefix, participants, isGroup }) => {
     let member = participants.map((u) => u.id);
@@ -48,7 +48,7 @@ module.exports = {
     let buttons = [
       {
         buttonId: `${prefix}hidetag`,
-        buttonText: { displayText: "😂" },
+        buttonText: { displayText: "👀" },
         type: 1,
       },
     ];
