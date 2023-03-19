@@ -4,7 +4,7 @@ module.exports = {
   desc: "Change the group name",
   category: "Group",
   usage: `setgcname <New group name>`,
-  react: "🍁",
+  react: "📝",
   start: async (
     Miku,
     m,
