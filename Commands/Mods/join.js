@@ -4,7 +4,7 @@ module.exports = {
   desc: "ask bot to Join a group",
   category: "Mods",
   usage: "join <link>",
-  react: "🎀",
+  react: "👀",
   start: async (
     Miku,
     m,
