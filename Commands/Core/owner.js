@@ -6,7 +6,7 @@ module.exports = {
   alias: ["modlist", "mods", "mod"],
   category: "Core",
   usage: "owner",
-  react: "🏅",
+  react: "👹",
   start: async (Miku, m, { text, prefix }) => {
     try {
       var modlist = await mku.find({ addedMods: "true" });
@@ -21,7 +21,7 @@ module.exports = {
       let xyz = xy.concat(yz);
 
       ment = [ownerList.map((owner) => owner + "@s.whatsapp.net"), mention];
-      let textM = `    🧣  *${botName} Mods*  🧣\n\n`;
+      let textM = `    🌀  *${botName} Mods*  🌀\n\n`;
 
       if (ownerList.length == 0) {
         textM = "*No Mods Added !*";
@@ -33,12 +33,12 @@ module.exports = {
 
       if (modlistString != "") {
         for (var i = 0; i < modlist.length; i++) {
-          textM += `\n🎀 @${modlist[i].id.split("@")[0]}\n`;
+          textM += `\n🌀 @${modlist[i].id.split("@")[0]}\n`;
         }
       }
 
       if (modlistString != "" || ownerList.length != 0) {
-        textM += `\n\n📛 *Don't Spam them to avoid Blocking !*\n\n🎀 For any help, type *${prefix}support* and ask in group.\n\n*💫 Thanks for using ${botName}. 💫*\n`;
+        textM += `\n\n🕊️ *Don't Spam them to avoid Blocking !*\n\n🦄 For any help, type *${prefix}support* and ask in group.\n\n*🐱 Thanks for using ${botName}. 🐱*\n`;
       }
 
       return Miku.sendMessage(
