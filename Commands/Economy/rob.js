@@ -35,8 +35,8 @@ module.exports = {
         const balance2 = await eco.balance(user2, cara);
         const typ = ['ran','rob','caught'];
         const random = typ[Math.floor(Math.random() * typ.length)];
-        if (k > balance1.wallet) return Miku.sendMessage(m.from, { text: '*☹️ You don\'t have enough money to pay fine incase you get caught*' }, { quoted: m }); 
-        if (k > balance2.wallet) return Miku.sendMessage(m.from, { text: '*Sorry, your victim is too poor 🤷🏽‍♂️ let go.*' }, { quoted: m }); 
+        if (k > balance1.wallet) return Miku.sendMessage(m.from, { text: '*😶 You don\'t have enough money to pay fine incase you get caught*' }, { quoted: m }); 
+        if (k > balance2.wallet) return Miku.sendMessage(m.from, { text: '*Sorry, your victim is too poor 🥲 let go.*' }, { quoted: m }); 
 
         switch (random) {
             case 'ran':
@@ -47,7 +47,7 @@ module.exports = {
                 return Miku.sendMessage(m.from, { text: `*🤑 You have stolen ${amount} successfully .🗡️*` }, { quoted: m });
             case 'caught':
                 await eco.deduct(user1, cara, balance1.wallet); 
-                return Miku.sendMessage(m.from, { text: `*Sorry FBI👮 caught up with you, you lost all 🪙 in wallet.*` }, { quoted: m });
+                return Miku.sendMessage(m.from, { text: `*Sorry police👮 caught up with you, you lost all 🪙 in wallet.*` }, { quoted: m });
                 default:
                 return Miku.sendMessage(m.from, { text: 'What are you trying to do?' }, { quoted: m });
                 }
