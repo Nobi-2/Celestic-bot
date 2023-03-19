@@ -24,7 +24,7 @@ module.exports = {
 const dey = shibam(50, 100)
     let Mikutext = `Cute Check Of: @${
       mentionedUser.split("@")[0]
-    }\n\nAnswer : *${dey}%*🐱`;
+    }\n\nAnswer : *${dey}%*🐭`;
 
     Miku.sendMessage(
       m.from,
