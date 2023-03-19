@@ -4,7 +4,7 @@ module.exports = {
     alias: ["flipcoin", "coin"],
     category: "Fun",
     usage: "coinflip",
-    react: "💰",
+    react: "🪙",
     start: async (Miku, m, { text, prefix, args }) => {
         let result = Math.floor(Math.random() * 2) + 1;
         if (result === 1) {
