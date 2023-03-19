@@ -50,8 +50,8 @@ module.exports = {
         let a = (balance.wallet) < parseInt(word)
         //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist
 
-        const deduct = await eco.deduct(user1, cara, value[0]);
-        const give = await eco.give(user2, cara, value[0]);
+        const deduct = await eco.deduct(user2, cara, value[0]);
+        const give = await eco.give(user1, cara, value[0]);
         let buttons = [
             {
               buttonId: `${prefix}wallet`,
