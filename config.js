@@ -39,7 +39,7 @@ if (!gg) {
 
 
 global.owner = gg.split(",");
-global.mongodb = process.env.MONGODB || "mongodb+srv://Lucky2:Lucky2@cluster0.mw4duxl.mongodb.net/?retryWrites=true&w=majority";
+global.mongodb = process.env.MONGODB || "mogodb url";
 global.sessionId = process.env.SESSION_ID || "L2";
 global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
