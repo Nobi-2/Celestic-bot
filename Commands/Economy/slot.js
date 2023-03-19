@@ -16,16 +16,16 @@ module.exports = {
       var today = new Date();
       if (today.getDay() == 6 || today.getDay() == 5 || today.getDay() == 0){
           if (text == 'help') return m.reply(`*1:* Use ${prefix}slot to play\n\n*2:* You must have 🪙100 in your wallet\n\n*3:* If you don't have money in wallet then withdraw from your bank\n\n*4:* If you don't have money in your bank too then use economy features to gain money`)
-          if (text == 'money') return m.reply(`*1:* Small Win --> +🪙20\n\n*2:* Small Lose --> -🪙20\n\n*3:* Big Win --> +🪙100\n\n*4:* Big Lose --> -🪙50\n\n*5:* 🎉 JackPot --> +🪙1000`)
-          const fruit1= ["🥥", "🍎", "🍇"]
-          const fruit2 = ["🍎", "🍇", "🥥"]  
-          const fruit3 = ["🍇", "🥥", "🍎"]         
-          const fruit4 = ["🍇", "🥥", "🍎"]
-          const lose = ['*You suck at playing this game*\n\n_--> 🍍-🥥-🍎_', '*Totally out of line*\n\n_--> 🥥-🍎-🍍_', '*Are you a newbie?*\n\n_--> 🍎-🍍-🥥_']
-          const smallLose = ['*You cannot harvest coconut 🥥 in a pineapple 🍍 farm*\n\n_--> 🍍>🥥<🍍_', '*Apples and Coconut are not best Combo*\n\n_--> 🍎>🥥<🍎_', '*Coconuts and Apple are not great deal*\n\n_--> 🥥>🍎<🥥_']
-          const won = ['*You harvested a basket of*\n\n_--> 🍎+🍎+🍎_', '*Impressive, You must be a specialist in plucking coconuts*\n\n_--> 🥥+🥥+🥥_', '*Amazing, you are going to be making pineapple juice for the family*\n\n_--> 🍍+🍍+🍍_']             
-          const near = ['*Wow, you were so close to winning pineapples*\n\n_--> 🍎-🍍+🍍_', '*Hmmm, you were so close to winning Apples*\n\n_--> 🍎+🍎-🍍_']          
-          const jack = ['*🥳 JackPot 🤑*\n\n_--> 🍇×🍇×🍇×🍇_', '*🎉 JaaackPooot!*\n\n_--> 🥥×🥥×🥥×🥥_', '*🎊 You Just hit a jackpot worth 🪙1000*']
+          if (text == 'money') return m.reply(`*1:* Small Win --> +🪙300\n\n*2:* Small Lose --> -🪙100\n\n*3:* Big Win --> +🪙500\n\n*4:* Big Lose --> -🪙300\n\n*5:* 🎉 JackPot --> +🪙10000`)
+          const fruit1= ["🍑", "🍒", "🍇"]
+          const fruit2 = ["🍒", "🍇", "🍑"]  
+          const fruit3 = ["🍇", "🍑", "🍒"]         
+          const fruit4 = ["🍇", "🍑", "🍒"]
+          const lose = ['*You suck at playing this game*\n\n_--> 🍍-🍑-🍒_', '*Totally out of line*\n\n_--> 🍑-🍒-🍍_', '*Are you a newbie?*\n\n_--> 🍒-🍍-🍑_']
+          const smallLose = ['*You cannot harvest coconut 🍑 in a pineapple 🍍 farm*\n\n_--> 🍍>🍑<🍍_', '*Apples and Coconut are not best Combo*\n\n_--> 🍒>🍑<🍒_', '*Coconuts and Apple are not great deal*\n\n_--> 🍑>🍒<🍑_']
+          const won = ['*You harvested a basket of*\n\n_--> 🍒+🍒+🍒_', '*Impressive, You must be a specialist in plucking coconuts*\n\n_--> 🍑+🍑+🍑_', '*Amazing, you are going to be making pineapple juice for the family*\n\n_--> 🍍+🍍+🍍_']             
+          const near = ['*Wow, you were so close to winning pineapples*\n\n_--> 🍒-🍍+🍍_', '*Hmmm, you were so c lose to winning Apples*\n\n_--> 🍒+🍒-🍍_']          
+          const jack = ['*🥳 JackPot 🤑*\n\n_--> 🍇×🍇×🍇×🍇_', '*🎉 JaaackPooot!*\n\n_--> 🍑×🍑×🍑×🍑_', '*🎊🤤 You Just hit a jackpot worth 🪙10000*']
           const user = m.sender
           const cara = "cara"
           const k = 100
@@ -44,34 +44,34 @@ module.exports = {
           
           if ((f1 !== f2) && f2 !== f3){
              const deduct1 = await eco.deduct(user, cara, 50);
-                    m.reply(`${mess1}\n\n*Big Lose -->* _🪙50_`)
+                    m.reply(`${mess1}\n\n*Big Lose -->* _🪙300_`)
           }
           else if ((f1 == f2) && f2 == f3){
              const give1 = await eco.give(user, cara, 100); 
-                   m.reply(`${mess2}\n*_Big Win -->* _🪙100_`)
+                   m.reply(`${mess2}\n*_Big Win -->* _🪙500_`)
           }
           else if ((f1 == f2) && f2 !== f3){
              const give2 = await eco.give(user, cara, 20);
-                   m.reply(`${mess3}\n*Small Win -->* _🪙20_`)
+                   m.reply(`${mess3}\n*Small Win -->* _🪙300_`)
           }
           else if ((f1 !== f2) && f1 == f3){
              const deduct2 = await eco.deduct(user, cara, 20);
-                   m.reply(`${mess5}\n\n*Small Lose -->* _🪙20_`)
+                   m.reply(`${mess5}\n\n*Small Lose -->* _🪙100_`)
           }
           else if ((f1 !== f2) && f2 == f3){
              const give4 = eco.give(user, cara, 20); 
-                   m.reply(`${mess3}\n\n*Small Win -->* _🪙20_`)
+                   m.reply(`${mess3}\n\n*Small Win -->* _🪙300_`)
           }
           else if (((f1 == f2) && f2 == f3) && f3 == f4){
              const give5 = eco.give(user, cara, 1000);
-                  m.reply(`${mess4}\n\n_🎊 JackPot --> _🪙1000_`)
+                  m.reply(`${mess4}\n\n_🍫 JackPot --> _🪙10000_`)
           }
           else { 
                   m.reply(`Do you understand what you are doing?`)
           }
        }
        else{
-                m.reply(`*You can only play this game during weekends*\n\n*🌿 Friday*\n*🎏 Saturday*\n*🎐 Sunday*`)
+                m.reply(`*You can only play this game during weekends*\n\n*🌱 Friday*\n*🎋 Saturday*\n*🪢 Sunday*`)
          }
     }
 }
