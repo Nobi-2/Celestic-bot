@@ -6,7 +6,7 @@ module.exports = {
   desc: "Enable or disable Welcome/Goodbye messages in a group",
   category: "Group",
   usage: "welcome [on/off]",
-  react: "🎀",
+  react: "✅",
   start: async (
     Miku,
     m,
