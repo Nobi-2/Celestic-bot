@@ -4,7 +4,7 @@ module.exports = {
   desc: "To unblock an user from bot's account",
   category: "Mods",
   usage: "unblock @user",
-  react: "🎀",
+  react: "😹",
   start: async (
     Miku,
     m,
