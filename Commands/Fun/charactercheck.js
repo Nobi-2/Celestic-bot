@@ -3,7 +3,7 @@ module.exports = {
   alias: ["charcheck"],
   desc: "check",
   cool: 3,
-  react: "😂",
+  react: "😏",
   category: "Fun",
   start: async (
     Miku,
