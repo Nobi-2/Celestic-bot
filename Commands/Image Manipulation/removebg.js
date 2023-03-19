@@ -7,7 +7,7 @@ module.exports = {
   desc: "To remove backgroung of an image",
   category: "Image Manipulation",
   usage: "removebg <reply to image>",
-  react: "🍁",
+  react: "🐈‍⬛",
   start: async (Miku, m, { text, prefix, quoted, pushName, mime, body }) => {
     if (!m.quoted && !/image/.test(mime))
       return m.reply(
