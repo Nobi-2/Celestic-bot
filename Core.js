@@ -503,7 +503,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       };
       await Miku.sendMessage(m.from, reactionMess).then(() => {
         return Miku.sendMessage(m.from, buttonmess, {
-          react: "🍁",
+          react: "🐈‍⬛",
           quoted: m,
         });
       });
