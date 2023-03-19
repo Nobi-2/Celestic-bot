@@ -6,7 +6,7 @@ module.exports = {
   desc: "ask bot to leave a group",
   category: "Group",
   usage: "leave",
-  react: "👋",
+  react: "👺",
   start: async (
     Miku,
     m,
