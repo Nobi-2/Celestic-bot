@@ -49,7 +49,7 @@ module.exports = {
 23 --- Nobita
 */
 
-      let botNames = ['Celestic MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD','Hinata MD','Itachi MD','Naruto MD''Nobita']
+      let botNames = ['Celestic MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD','Hinata MD','Itachi MD','Naruto MD','Nobita MD']
       let botLogos =[
         'https://wallpapercave.com/wp/wp5924545.jpg',
         'https://wallpapercave.com/wp/wp11253614.jpg',
