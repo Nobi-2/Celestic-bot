@@ -11,7 +11,7 @@ module.exports = {
   desc: "To download an instagram video",
   category: "Media",
   usage: `igdl2 <video link>`,
-  react: "🍁",
+  react: "🎥",
   start: async (Miku, m, { text, prefix, args }) => {
     if (!args[0])
       return Miku.sendMessage(
