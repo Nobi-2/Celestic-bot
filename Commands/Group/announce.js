@@ -4,7 +4,7 @@ module.exports = {
   desc: "Tag all group member without @ mention",
   category: "Group",
   usage: "announce <your message>",
-  react: "🍁",
+  react: "🌱",
   start: async (
     Miku,
     m,
