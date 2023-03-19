@@ -5,7 +5,7 @@ module.exports = {
   alias: ["givedare", "d"],
   desc: "give a dare",
   cool: 3,
-  react: "🙄",
+  react: "👺",
   category: "Fun",
   start: async (Miku, m, { text, prefix }) => {
     const shibam = await axios.get(
