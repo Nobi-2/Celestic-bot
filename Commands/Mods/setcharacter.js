@@ -7,7 +7,7 @@ module.exports = {
     desc: "Ban a member", 
     category: "core", 
     usage: "setchar 0/1/2/3/4/5/6/7", 
-    react: "🎀", 
+    react: "🐈‍⬛", 
     start: async ( 
       Miku, 
       m, 
@@ -46,7 +46,7 @@ module.exports = {
 20 --- Hinata
 21 --- Itachi
 22 --- Naruto
-
+23 --- Nobita
 */
 
       let botNames = ['Celestic MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD','Hinata MD','Itachi MD','Naruto MD']
