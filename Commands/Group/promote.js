@@ -4,7 +4,7 @@ module.exports = {
   desc: "Promote a member",
   category: "Group",
   usage: "promote @user",
-  react: "🍁",
+  react: "🍫",
   start: async (
     Miku,
     m,
@@ -48,7 +48,7 @@ module.exports = {
             {
               text: `Congratulations @${
                 mentionedUser.split("@")[0]
-              } Senpai 🥳, you have been *Promoted* Successfully by *${pushName}* !`,
+              } Senpai 🐈‍⬛, you have been *Promoted* Successfully by *${pushName}* !`,
               mentions: [mentionedUser],
             },
             { quoted: m }
