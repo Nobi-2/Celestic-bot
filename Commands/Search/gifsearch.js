@@ -6,7 +6,7 @@ module.exports = {
   desc: "To search any gif",
   category: "Search",
   usage: `gif <search term>`,
-  react: "🍁",
+  react: "🐈‍⬛",
   start: async (Miku, m, { text, prefix, args }) => {
     if (!args[0])
       return Miku.sendMessage(
