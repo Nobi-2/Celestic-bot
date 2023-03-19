@@ -4,7 +4,7 @@ module.exports = {
   name: "fact",
   alias: ["givefact"],
   desc: "Give a random fact.",
-  react: "🍁",
+  react: "👀",
   category: "Fun",
   start: async (Miku, m, { pushName, prefix }) => {
     await axios
