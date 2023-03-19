@@ -12,7 +12,7 @@ module.exports = {
   ],
   desc: "Say somethong using bot in Bengali accent.",
   usage: "saybengali <text>",
-  react: "🍁",
+  react: "🌬️",
   category: "Essentials",
   start: async (Miku, m, { pushName, prefix, args, text, mime }) => {
     if (!text && m.quoted) {
