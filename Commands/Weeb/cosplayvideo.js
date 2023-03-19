@@ -6,7 +6,7 @@ module.exports = {
   desc: "To get a random cosplayvideo",
   category: "Weeb",
   usage: `cosplayamv`,
-  react: "😉",
+  react: "😳",
   start: async (Miku, m, { prefix }) => {
     var VID = await getBuffer(`https://nekopai-cosplayvideo-api.onrender.com/`);
     var Button = [
