@@ -6,7 +6,7 @@ module.exports = {
   desc: "To get a random Cosplay image",
   category: "Weeb",
   usage: `cosplay`,
-  react: "🍁",
+  react: "🥵",
   start: async (Miku, m, { prefix }) => {
     var cosplayImage = await getBuffer(`https://fantox-cosplay-api.onrender.com/`);
     var cosplayButton = [
