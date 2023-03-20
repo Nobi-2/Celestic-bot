@@ -4,7 +4,7 @@ module.exports = {
     name: "3dchristmas",
     alias: ["3dchristmastree"],
     desc: "Make text logo.",
-    react: "🐈‍⬛",
+    react: "🌲",
     category: "Logo Maker",
     start: async(Miku, m,{pushName,prefix,text}) => {
         if(!text) return m.reply(`Example: *${prefix}3dchristmas Atlas Bot*`);
