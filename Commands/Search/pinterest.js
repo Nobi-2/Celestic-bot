@@ -11,7 +11,7 @@ module.exports = {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
-        { text: `Please provide a Search Term !` },
+        { text: `Abe kuch to bata search kya karna he !` },
         { quoted: m }
       );
     var PinsearchTerm = args.join(" ");
