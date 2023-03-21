@@ -1,8 +1,8 @@
 const axios = require("axios");
 
 module.exports = {
-  name: "fact",
-  alias: ["givefact"],
+  name: "nobi",
+  alias: ["nobita","Nobi"],
   desc: "Give a random fact.",
   react: "👀",
   category: "Fun",
@@ -31,7 +31,7 @@ module.exports = {
         Miku.sendMessage(m.from, buttonMessage, { quoted: m });
       })
       .catch((err) => {
-        m.reply(`An error occurred.`);
+        m.reply(`Hello its Nobita😶.`);
       });
   },
 };
