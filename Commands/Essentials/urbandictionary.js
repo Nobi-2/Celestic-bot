@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   name: "urbandictionary",
-  alias: ["udictionary"],
+  alias: ["udictionary""Ud"],
   desc: "To search something in Urban Dictionary",
   usage: "udictionary <text>",
   react: "🐈‍⬛",
