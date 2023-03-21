@@ -24,9 +24,9 @@ module.exports = {
         
         let txt =`        *『 Mediafire Downloader 』*
         
-*🎀 File Name* : ${MDF[0].nama}
-*🧩 File Size* : ${MDF[0].size}
-*📌File Format* : ${MDF[0].mime}
+*🖥️ File Name* : ${MDF[0].nama}
+*👾 File Size* : ${MDF[0].size}
+*💾 File Format* : ${MDF[0].mime}
 
 Downloading...`
 
