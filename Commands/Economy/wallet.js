@@ -17,7 +17,14 @@ module.exports = {
       m, 
       { text, prefix, isBotAdmin, isAdmin, mentionByTag, pushName, isCreator} 
     ) => {
-        let user = m.sender 
+      if (m.quoted) {
+      var mentionedUser = m.quoted.sender;
+    } else {
+      var mentionedUser = mentionByTag[0];
+    } else {
+      var mentionedUser = m.sender;
+        
+        let user = (await mentionedUser) || m.msg.contextInfo.participant; 
          const cara = "cara"
          const balance = await eco.balance(user, cara); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
          let buttons = [
