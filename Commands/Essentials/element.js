@@ -4,7 +4,7 @@ const npt = require("node-periodic-table");
 
 module.exports = {
     name: "element",
-    alias: ["elementinfo"],
+    alias: ["elementinfo","elinfo"],
     desc: "To get info of an element from priodic table", 
     usage: "element br",
     react: "🦄",
