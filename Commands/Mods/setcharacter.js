@@ -74,7 +74,8 @@ module.exports = {
         'https://images8.alphacoders.com/122/1229829.jpg',
         'https://wallpapercave.com/wp/wp4440860.jpg',
         'https://wallpapercave.com/wp/wp12001815.jpg',
-        'https://wallpapercave.com/w/wp11863118.jpg' 
+        'https://wallpapercave.com/w/wp11863118.jpg',
+        'https://wallpapercave.com/w/wp2034572.jpg'
       ]
 
       await mkchar.findOne({id:'1'}).then(async (charInfo) => {
