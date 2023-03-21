@@ -4,11 +4,11 @@ const util = require("util");
 
 module.exports = {
   name: "tourl",
-  alias: ["makeurl"],
+  alias: ["makeurl","url"],
   desc: "To make a url from image/video/gif",
   category: "Utilities",
   usage: "sticker <reply to image>",
-  react: "♣️",
+  react: "🍻",
   start: async (Miku, m, { quoted, mime }) => {
     let media = await Miku.downloadAndSaveMediaMessage(quoted);
     if (/image/.test(mime)) {
