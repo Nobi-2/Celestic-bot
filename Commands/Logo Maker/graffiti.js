@@ -2,12 +2,12 @@ const maker = require('mumaker')
 
 module.exports = {
     name: "graffiti",
-    alias: ["grafiti"],
+    alias: ["grafiti","grf"],
     desc: "Make text logo.",
     react: "🖌️",
     category: "Logo Maker",
     start: async(Miku, m,{pushName,prefix,text}) => {
-        if(!text.includes("|")) return m.reply(`Example: *${prefix}graffiti Atlas Bot|Team Atlas*`);
+        if(!text.includes("|")) return m.reply(`Example: *${prefix}graffiti celestic Bot|Team celestic*`);
         teks1 = text.split("|")[0]
         teks2 = text.split("|")[1]
         maker.textpro("https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html", [
