@@ -7,7 +7,7 @@ module.exports = {
     react: "🐈‍⬛",
     category: "Logo Maker",
     start: async(Miku, m,{pushName,prefix,text}) => {
-        if(!text) return m.reply(`Example: *${prefix}deepsea Atlas Bot*`);
+        if(!text) return m.reply(`Example: *${prefix}deepsea celestic Bot*`);
         maker.textpro("https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html", [
     `${text}`,]).then((data) => Miku.sendMessage(m.from, { image: { url: data }, caption: `Made by ${botName}` }, { quoted: m }))
     .catch((err) => m.reply('An Error occued !'));
