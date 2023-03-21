@@ -47,6 +47,7 @@ module.exports = {
 21 --- Itachi
 22 --- Naruto
 23 --- Nobita
+
 */
 
       let botNames = ['Celestic MD', 'Power MD', 'Makima MD', 'Denji MD', 'Zero Two', 'Chika MD' , 'Miku MD', 'Marin MD','Ayanokoji MD','Ruka MD','Mizuhara MD','Rem MD','Sumi MD','Kaguya MD','Yumeko MD','Kurumi MD','Mai MD','Yor MD','Shinbou MD','Eiko MD','Hinata MD','Itachi MD','Naruto MD','Nobita MD']
@@ -222,7 +223,13 @@ module.exports = {
             }).catch(error => {    
                 return m.reply(`An error occurred while updating the character number.`)
             })}   
-         else if (charNum == '22') {
+        else if (charNum == '22') {
+            await mkchar.findOneAndUpdate({ id: '1' }, { $set: { seletedCharacter: charNum } }, { new: true }).then(async(res) => {
+                await Miku.sendMessage(m.from, { image: {url:botLogos[charNum]},caption: `Character number ${charNum} - ${botNames[charNum]} is now the default character.\n` }, { quoted: m })
+            }).catch(error => {    
+                return m.reply(`An error occurred while updating the character number.`)
+            })}    
+        else if (charNum == '23') {
             await mkchar.findOneAndUpdate({ id: '1' }, { $set: { seletedCharacter: charNum } }, { new: true }).then(async(res) => {
                 await Miku.sendMessage(m.from, { image: {url:botLogos[charNum]},caption: `Character number ${charNum} - ${botNames[charNum]} is now the default character.\n` }, { quoted: m })
             }).catch(error => {    
