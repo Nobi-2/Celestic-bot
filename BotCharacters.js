@@ -329,3 +329,14 @@ global.charID22 = {
   botImage6 : "https://wallpapercave.com/w/wp10541568.jpg",
 }
 
+global.charID23 = {
+  botName : "ɳσႦιƚα MD",
+  botVideo : "https://graph.org/file/18a7256e0db4f6a0b4fc9.mp4",
+  botImage1 : "https://graph.org/file/7e00bfa9c92ea494088ee.jpg",
+  botImage2 : "https://graph.org/file/3467cef17e6a17b998e85.jpg",
+  botImage3 : "https://graph.org/file/15f1a1408984bc0b58d1d.jpg",
+  botImage4 : "https://graph.org/file/9315df17df9ba91dbd673.jpg",
+  botImage5 : "https://graph.org/file/71544adf3f66e845771d9.jpg",
+  botImage6 : "https://graph.org/file/3e02f264637a8ac245ec2.jpg",
+}
+
