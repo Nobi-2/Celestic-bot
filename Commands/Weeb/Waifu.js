@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   name: "waifu",
-  alias: ["swaifu", "wify"],
+  alias: ["swaifu", "wify", "wifi"],
   desc: "Get anime girls picture.",
   react: "🥵",
   category: "Weeb",
