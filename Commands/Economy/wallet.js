@@ -41,7 +41,9 @@ module.exports = {
           ];
           let buttonMessage = {
             image: fs.readFileSync("./Assets/Img/card.png"), 
-            caption: `\n💳 *${m.pushName}'s Wallet:*\n\n_💴 ${balance.wallet}_`,
+            caption: `\n💳 *@${
+                  mentionedUser.split("@")[0]
+                 }'s Wallet:*\n\n_💴 ${balance.wallet}_`,
             footer: `*${botName}*`,
             buttons: buttons,
             type: 4
