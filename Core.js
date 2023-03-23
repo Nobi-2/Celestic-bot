@@ -382,7 +382,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
     let economystatus = await mk.findOne({
       id: m.from,
     });
-    let ecostatus = "false";
+    let coStatus = "false";
     if (economystatus) {
       ecostatus = economystatus.switchEconomy || "false";
     }
