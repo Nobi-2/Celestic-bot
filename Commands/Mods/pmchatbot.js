@@ -2,7 +2,7 @@ const { mkchar } = require("../../Database/dataschema.js");
 
 module.exports = {
   name: "chatbotpm",
-  alias: ["pmautochat", "autoreplypm", "chatbotgroup", "pmchatbot"],
+  alias: ["pmautochat", "autoreplypm", "chatbotgroup", "pmchatbot","dmchat"],
   desc: "Enable or disable the autoreply feature in a group",
   category: "Mods",
   usage: "pmchatbot [on/off]",
