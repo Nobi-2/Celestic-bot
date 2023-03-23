@@ -24,7 +24,7 @@ module.exports = {
         }
         else if (/video/.test(mime)) {
             let mediaMess = await quoted.download();
-            if ((quoted.msg || quoted).seconds > 15)  return Miku.sendMessage(m.from,{text:'Please send video less than 15 seconds.'},{quoted:m})
+            if ((quoted.msg || quoted).seconds > 15)  return Miku.sendMessage(m.from,{text:'Baka send video less than 15 seconds.'},{quoted:m})
             let stickerMess = new Sticker(mediaMess, {
                 pack: packname,
                 author: pushName,
@@ -37,6 +37,6 @@ module.exports = {
             const stickerBuffer2 = await stickerMess.toBuffer()
              Miku.sendMessage(m.from, {sticker:stickerBuffer2}, { quoted: m })
     }else{
-        Miku.sendMessage(m.from,{text:`Please mention an *imade/video* and type *${prefix}s* to create cropped sticker.`},{quoted:m})
+        Miku.sendMessage(m.from,{text:`Baka mention an *imade/video* and type *${prefix}s* to create cropped sticker.`},{quoted:m})
     } 
 }}
