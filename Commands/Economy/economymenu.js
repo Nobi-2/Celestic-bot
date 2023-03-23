@@ -24,7 +24,7 @@ module.exports = {
 ┃┄⊰❀ ɢᴀᴍʙʟᴇ
 ┃┄⊰❀ ᴄᴀᴘᴀᴄɪᴛʏ
 ┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀\n\n
-🎀 Powered By: CELESTIC TEAM ©2023
+🎀 Powered By: CELESTIC TEAM ©2023`
 
 await Miku.sendMessage(m.from, {image: {url: botImage5}, caption: etext}, { quoted: m })
     }
