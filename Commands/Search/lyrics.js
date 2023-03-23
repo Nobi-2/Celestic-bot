@@ -2,7 +2,7 @@ const { lyrics, lyricsv2 } = require("@bochilteam/scraper");
 
 module.exports = {
   name: "lyrics",
-  alias: ["songlysics"],
+  alias: ["songlysics","lyr"],
   desc: "To get any song lyrics",
   category: "Search",
   usage: `lyrics <song name>`,
