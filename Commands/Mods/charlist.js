@@ -1,6 +1,6 @@
 module.exports = {
   name: "charlist",
-  alias: ["characterlist", "botcharacterlist"],
+  alias: ["characterlist", "botcharacterlist","character"],
   desc: "Ban a member",
   category: "Mods",
   usage: "setchar 0/1/2/3/4/5/6/7",
