@@ -32,7 +32,7 @@ module.exports = {
 
       if (args[0] === "on") {
         if (!checkdata) {
-          await new mk({ id: m.from, switcheconomy: "true" }).save();
+          await new mk({ id: m.from, switchEconomy: "true" }).save();
           Miku.sendMessage(
             m.from,
             {
@@ -47,13 +47,13 @@ module.exports = {
             { quoted: m }
           );
         } else {
-          if (checkdata.switcheconomy == "true")
+          if (checkdata.switchEconomy == "true")
             return Miku.sendMessage(
                 m.from,
                 { text: `*ECONOMY* is already *Activated* in this group!\n\nType *${prefix}ecomenu* To get full ECONOMY commands list.` },
                 { quoted: m }
               );
-          await mk.updateOne({ id: m.from }, { switcheconomy: "true" });
+          await mk.updateOne({ id: m.from }, { switchEconomy: "true" });
           return Miku.sendMessage(
             m.from,
             { text: `*ECONOMY* has been *Activated* in this group!\n\nType *${prefix}ecomenu* To get full ECONOMY commands list.` },
@@ -62,19 +62,19 @@ module.exports = {
         }
       } else if (args[0] === "off") {
         if (!checkdata) {
-          await new mk({ id: m.from, switcheconomy: "false" }).save();
+          await new mk({ id: m.from, switchEconomy: "false" }).save();
           return Miku.sendMessage(
             m.from,
             { text: `*ECONOMY* has been *De-Activated* in this group !` },
             { quoted: m }
           );
         } else {
-          if (checkdata.switcheconomy == "false") return Miku.sendMessage(
+          if (checkdata.switchEconomy == "false") return Miku.sendMessage(
             m.from,
             { text: `*ECONOMY* is already *De-Activated* in this group !` },
             { quoted: m }
           );
-          await mk.updateOne({ id: m.from }, { switcheconomy: "false" });
+          await mk.updateOne({ id: m.from }, { switchEconomy: "false" });
           return Miku.sendMessage(
             m.from,
             { text: `*ECONOMY* has been *De-Activated* in this group !` },
