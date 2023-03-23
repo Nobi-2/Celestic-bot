@@ -1,6 +1,6 @@
 module.exports = {
   name: "admins",
-  alias: ["tagadmins", "admin"],
+  alias: ["tagadmins", "admins"],
   desc: "Tag all group Admins.",
   category: "Group",
   usage: "admins <your message>",
