@@ -12,7 +12,7 @@ module.exports = {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
-        { text: `Please provide a anime name to search !` },
+        { text: `Please provide a anime name BAKA!to search !` },
         { quoted: m }
       );
 
