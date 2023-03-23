@@ -15,7 +15,7 @@ const GroupSchema = new mongoose.Schema({
   botSwitch: { type: String, default: "true" },
   switchNSFW: { type: String, default: "false" },
   switchWelcome: { type: String, default: "false" },
-  switcheconomy: { type: String, default: "false" }
+  switchEconomy: { type: String, default: "false" }
   })
 
 const UserSchema = new mongoose.Schema({
