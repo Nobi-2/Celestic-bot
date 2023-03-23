@@ -35,6 +35,6 @@ module.exports = {
             Miku.sendMessage(m.from, {sticker:stickerBuffer}, { quoted: m })
         }
        else{
-        Miku.sendMessage(m.from,{text:`Please mention an *Sticker* and type *${prefix}steal <packname | authorname>* to create sticker with your name.`},{quoted:m})
+        Miku.sendMessage(m.from,{text:`Baka! mention an *Sticker* and type *${prefix}steal <packname | authorname>* to create sticker with your name.`},{quoted:m})
     } 
 }}
