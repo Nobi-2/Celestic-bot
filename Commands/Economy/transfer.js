@@ -13,8 +13,9 @@ module.exports = {
     start: async ( 
         Miku, 
       m, 
-      { text, prefix, mentionByTag, pushName } 
+      { text, prefix, mentionByTag, pushName, ECOstatus} 
     ) => {
+      if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
         let value = text.trim().split(" ");
     if (value[0] === "") return m.reply(`Use ${prefix}transfer 100 @user`);
     if (!text && !m.quoted) {
