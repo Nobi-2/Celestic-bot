@@ -105,7 +105,7 @@ module.exports = {
         },
       ];
       let bmffg = {
-        image: { url: botImage2 },
+        image: { url: botImage5 },
         caption: `\n*「 Welcome Configuration 」*\n\nPlease click the button below\n`,
         footer: `*${botName}*`,
         buttons: buttonsntilink,
