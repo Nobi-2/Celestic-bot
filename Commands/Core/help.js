@@ -7,7 +7,7 @@ module.exports = {
   start: async (
     Miku,
     m,
-    { prefix, pushName, NSFWstatus, args, commands, text }
+    { prefix, pushName, ECOstatus, NSFWstatus, args, commands, text }
   ) => {
     if (args[0]) {
       let data = [];
