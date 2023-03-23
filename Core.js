@@ -349,7 +349,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
         if (m.quoted) {
           if (m.quoted.sender == botNumber) {
             const botreply = await axios.get(
-              `http://api.brainshop.ai/get?bid=172352&key=vTmMboAxoXfsKEQQ&uid=[uid]&msg=[${budy}]`
+              `http://api.brainshop.ai/get?bid=173920&key=CdmXTB6U0JMQb9fk&uid=[uid]&msg=[${budy}]`
             );
             txt = `${botreply.data.cnt}`;
             setTimeout(function () {
