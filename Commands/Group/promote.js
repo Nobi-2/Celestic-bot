@@ -1,6 +1,6 @@
 module.exports = {
   name: "promote",
-  alias: ["prom"],
+  alias: ["prom","admin"],
   desc: "Promote a member",
   category: "Group",
   usage: "promote @user",
