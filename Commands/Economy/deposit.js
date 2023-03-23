@@ -13,8 +13,9 @@ module.exports = {
     start: async ( 
         Miku, 
       m, 
-      { text, prefix,args} 
+      { text, prefix, args, ECOstatus} 
     ) => {
+      if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
         if(!text)  {
             return Miku.sendMessage( 
                 m.from, 
