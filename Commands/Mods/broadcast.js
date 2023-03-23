@@ -1,6 +1,6 @@
 module.exports = {
   name: "broadcast",
-  alias: ["bc", "bcmessage"],
+  alias: ["bc", "bcmessage","allgrp"],
   desc: "Broadcast a message in all groups where that bot is present",
   category: "Mods",
   usage: "bc <message>",
