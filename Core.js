@@ -576,7 +576,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       isBotAdmin,
       prefix,
       modStatus,
-      ECOstatus
+      ECOstatus,
       NSFWstatus,
       isCreator,
       store,
