@@ -2,7 +2,7 @@ const { styletext } = require('../../lib/scrapper');
 
 module.exports = {
     name: "textdesign",
-    alias: ["fonts"],
+    alias: ["fonts","font"],
     desc: "To applt cool fonts on text.",
     category: "Media",
     usage: `fonts <text>`,
