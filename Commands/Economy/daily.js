@@ -16,8 +16,9 @@ module.exports = {
     start: async ( 
         Miku, 
       m, 
-      { text, prefix} 
+      { text, prefix, ECOstatus} 
     ) => {
+      if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
          if (!m.isGroup) return Miku.sendMessage(m.from, { text: '*Group command ' }, { quoted: m });
          let user = m.sender 
          const cara = "cara"
