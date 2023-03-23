@@ -3,11 +3,11 @@ const Jimp = require("jimp");
 
 module.exports = {
   name: "setppgc",
-  alias: ["setgcpp", "setppgroup"],
+  alias: ["setgcpp", "setppgroup","setgcdp"],
   desc: "Set a group profile picture.",
   category: "Group",
   usage: `Tag an Image and type -setppgc}`,
-  react: "🍁",
+  react: "🐱",
   start: async (
     Miku,
     m,
