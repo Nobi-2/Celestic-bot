@@ -10,17 +10,16 @@
 /      d88P     888  "Y888 888 "Y888888  88888P'      888       888 8888888P"       /
 /                                                                                   / 
 /-----------------------------------------------------------------------------------/
-/ Author and Main Developer: FantoX                                                 /
-/ Github: https://github.com/FantoX001/Atlas-MD                                     /
-/ Powered By: Team ATLAS                                                            /
+/ Author and Main Developer:  ɳσႦιƚα-lucky-shisui                                                 /
+/ Github: https://github.com/lucky01u/Celestic-bot                                     /
+/ Powered By: Team CELESTIC                                                            /
 /-----------------------------------------------------------------------------------/
-/             Meet Team ATLAS who holds all rights to this repository:              /
+/             Meet Team Celestic who holds all rights to this repository:              /
 /                                                                                   /
-/ 1. Pratyush - https://github.com/pratyush4932                                     /
-/ 2. Ahmii - https://github.com/Ahmii-kun                                          /               
-/ 3. Kai - https://github.com/Kai0071                                               /                    
-/ 4. Devime - https://github.com/Devime69                                           /
-/ 5. Jay JayOps - https://github.com/jayjay-ops                                     /
+/ 1.  ɳσႦιƚα - https://github.com/nobi-2                                     /
+/ 2. lucky - https://github.com/lucky01u                                          /               
+/ 3. shisui -                      https://github.com/Kingshisui00                                            
+                            /
 /                                                                                   /
 / ----------------------------------------------------------------------------------/
 /                                                                                   /
