@@ -287,8 +287,10 @@ Here's the list of my Commands.\n
 ┃┄⊰❀ ᴍɪɴᴇ
 ┃┄⊰❀ ʀᴇɢ-ɪɴᴠ
 ┃┄⊰❀ ɪɴᴠᴇɴᴛᴏʀʏ
-┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀           
-✦      ╔═════ஓ๑♡๑ஓ═════╗
+┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀\n\n`;  
+      
+       if (ECOstatus == "true") {
+        textHelpMenu += `✦      ╔═════ஓ๑♡๑ஓ═════╗
 ✦────✦       ECONOMY      ✦────✦
 ✦      ╚═════ஓ๑♡๑ஓ═════╝
 ┃┄⊰❀ ʟʙ
@@ -303,6 +305,7 @@ Here's the list of my Commands.\n
 ┃┄⊰❀ ɢᴀᴍʙʟᴇ
 ┃┄⊰❀ ᴄᴀᴘᴀᴄɪᴛʏ
 ┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀\n\n`;
+      }
 
       if (NSFWstatus == "true") {
         textHelpMenu += `╭────ꕥ NSFW ꕥ────╮
