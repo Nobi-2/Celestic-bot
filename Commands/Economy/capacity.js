@@ -13,8 +13,9 @@ const ty = eco.connect(config.mongodb);
     start: async ( 
         Miku, 
         m, 
-        { text, prefix} 
+        { text, prefix, ECOstatus} 
     ) => {
+      if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
         if (!text) {
             return Miku.sendMessage(m.from, { text: `『  *Bank 💴 Capacity*  』\n\n1 | *1000 sp* = 100 💎\n\n2 | *100000 sp* = 1000 💎\n\n3 | *10000000 sp* = 10000000 💎\n\nExample: *${prefix}capacity 1* OR *${prefix}bankupgrade 1000*` }, { quoted: m });
         }
