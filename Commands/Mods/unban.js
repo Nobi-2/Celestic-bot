@@ -2,7 +2,7 @@ const { mku } = require("../../Database/dataschema.js");
 
 module.exports = {
   name: "unban",
-  alias: ["unban","reales"],
+  alias: ["unban","reales","forgive"],
   desc: "Unban a member",
   category: "core",
   usage: "unban @user",
