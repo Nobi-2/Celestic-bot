@@ -11,7 +11,7 @@ module.exports = {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
-        { text: `Please provide a search term !` },
+        { text: `Please provide a search term BAKA !` },
         { quoted: m }
       );
     let search = await yts(text);
