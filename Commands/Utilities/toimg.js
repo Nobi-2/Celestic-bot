@@ -27,7 +27,7 @@ module.exports = {
       Miku.sendMessage(
         m.from,
         {
-          text: `Please mention a *Non-animated* sticker and type *${prefix}toimg* to get image from sticker.`,
+          text: `Baka mention a *Non-animated* sticker and type *${prefix}toimg* to get image from sticker.`,
         },
         { quoted: m }
       );
