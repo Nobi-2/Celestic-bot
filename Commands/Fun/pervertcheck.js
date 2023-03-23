@@ -1,6 +1,6 @@
 module.exports = {
   name: "pervcheck",
-  alias: ["pervertcheck"],
+  alias: ["pervertcheck","pervert"],
   desc: "check",
   cool: 3,
   react: "👀",
@@ -29,7 +29,7 @@ const dey = shibam(1, 100)
     Miku.sendMessage(
       m.from,
       {
-        image: { url: botImage3 },
+        image: { url: botImage6 },
         caption: Mikutext,
         mentions: [mentionedUser],
       },
