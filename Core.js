@@ -385,6 +385,18 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
     let ecostatus = "false";
     if (economystatus) {
       ecostatus = economystatus.switcheconomy || "false";
+      if (
+        m.isGroup &&
+        botWrokerGC == "false" &&
+        !isAdmin &&
+        !isOwner &&
+        modStatus == "false" &&
+        isCmd
+      ) {
+        return console.log(
+          `\nCommand Rejected ! Bot is turned off in ${groupName} !\n`
+        );
+      }
     }
     //--------------------------------------------- NSFW Configuration -----------------------------------------------//
 
