@@ -7,7 +7,7 @@ module.exports = {
 
     name: "addgold",  
     desc: "add the specific amount of gold in users wallet.", 
-    alias: ["ag"],
+    alias: ["ag","addg"],
     category: "MODS",  
     react: "💴", 
     start: async ( 
