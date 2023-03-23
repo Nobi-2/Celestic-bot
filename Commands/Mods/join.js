@@ -1,6 +1,6 @@
 module.exports = {
   name: "join",
-  alias: ["joingc"],
+  alias: ["joingc","go"],
   desc: "ask bot to Join a group",
   category: "Mods",
   usage: "join <link>",
