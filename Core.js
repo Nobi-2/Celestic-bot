@@ -384,7 +384,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
     });
     let ecostatus = "false";
     if (economystatus) {
-      ecostatus = economystatus.switcheconomy || "false";
+      ecostatus = economystatus.switchEconomy || "false";
     }
     //--------------------------------------------- NSFW Configuration -----------------------------------------------//
 
