@@ -387,7 +387,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       ecostatus = economystatus.switcheconomy || "false";
       if (
         m.isGroup &&
-        botWrokerGC == "false" &&
+        ecostatus == "false" &&
         !isAdmin &&
         !isOwner &&
         modStatus == "false" &&
