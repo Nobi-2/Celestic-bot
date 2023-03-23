@@ -377,6 +377,15 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
         }, 2200);
       }
     }
+    //-------------------------------------- Economy On/OFF Configuration ----------------------------------------//
+
+    let economystatus = await mk.findOne({
+      id: m.from,
+    });
+    let ecostatus = "false";
+    if (economystatus) {
+      ecostatus = economystatus.switcheconomy || "false";
+    }
     //--------------------------------------------- NSFW Configuration -----------------------------------------------//
 
     let nsfwstatus = await mk.findOne({
