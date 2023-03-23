@@ -382,9 +382,9 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
     let economystatus = await mk.findOne({
       id: m.from,
     });
-    let ecoStatus = "false";
+    let ECOstatus = "false";
     if (economystatus) {
-      ecoStatus = economystatus.switchEconomy || "false";
+      ECOstatus = economystatus.switchEconomy || "false";
     }
     //--------------------------------------------- NSFW Configuration -----------------------------------------------//
 
@@ -576,6 +576,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
       isBotAdmin,
       prefix,
       modStatus,
+      ECOstatus
       NSFWstatus,
       isCreator,
       store,
