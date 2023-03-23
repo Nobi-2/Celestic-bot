@@ -31,7 +31,7 @@ module.exports = {
             fs.unlinkSync(media);
             }
             else{
-                m.reply(`Please mention an *image* and type *${prefix}smeme* to create sticker meme.`);
+                m.reply(`Baka! mention an *image* and type *${prefix}smeme* to create sticker meme.`);
             }
         }
     }
