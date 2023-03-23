@@ -1,6 +1,6 @@
 module.exports = {
   name: "tagall",
-  alias: ["tag", "all"],
+  alias: ["tag", "all","come","summoning"],
   desc: "Tag all group member",
   category: "Group",
   usage: "tagall",
@@ -23,7 +23,7 @@ module.exports = {
       ? m.quoted.msg
       : "No Message";
 
-    let mess = `               *『 Attention Here🖤 』*
+    let mess = `               *『 summoning jutsu 🖤 』*
     
 *Tagged by:* @${m.sender.split("@")[0]}
     
