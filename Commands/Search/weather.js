@@ -11,7 +11,7 @@ module.exports = {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
-        { text: `Please provide a location name !` },
+        { text: `Please provide a location name Baka !` },
         { quoted: m }
       );
     var WeatherSearchTerm = args.join(" ");
