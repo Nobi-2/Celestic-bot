@@ -14,8 +14,9 @@ const ty = eco.connect(config.mongodb);
     start: async ( 
         Miku, 
         m, 
-        { text, prefix} 
+        { text, prefix, ECOstatus} 
     ) => {
+      if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
         const user = m.sender
 	
         var texts = text.split(" ");
