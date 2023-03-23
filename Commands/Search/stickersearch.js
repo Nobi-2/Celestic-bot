@@ -3,7 +3,7 @@ const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 
 module.exports = {
   name: "stickersearch",
-  alias: ["getsticker", "searchsticker"],
+  alias: ["getsticker", "searchsticker","stkrs"],
   desc: "To search any sticker",
   category: "Search",
   usage: `stickersearch <search term>`,
@@ -12,7 +12,7 @@ module.exports = {
     if (!args[0])
       return Miku.sendMessage(
         m.from,
-        { text: `Please provide a Search Term !` },
+        { text: `Please provide a Search Term Baka !` },
         { quoted: m }
       );
     var gifSearchTerm = args.join(" ");
