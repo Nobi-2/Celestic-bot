@@ -3,21 +3,21 @@ const { mk } = require("../../Database/dataschema.js");
 module.exports = {
     name: "economy",
     alias: ["eco","ecomode"],
-    desc: "Enable or disable NSFW commands in a group",
+    desc: "Enable or disable ECONOMY commands in a group",
     category: "Group",
     usage: "economy [on/off]",
     react: "🤤",
     start: async (
       Miku,
       m,
-      { args, isBotAdmin, isAdmin, isCreator, reply,prefix,pushName }
+      { args, isBotAdmin, isCreator, reply, prefix, pushName}
     ) => {
       
-        if (!isAdmin)
+        if (!isCreator)
         return Miku.sendMessage(
           m.from,
           {
-            text: `*${pushName}* must be *Admin* to turn ON/OFF Economy !`,
+            text: `*${pushName}* must be *Mod* to turn ON/OFF Economy !`,
           },
           { quoted: m }
         );
