@@ -55,7 +55,6 @@ module.exports = {
         const uptime = () => formatTime(process.uptime());
 
 const now = new Date();
-
         const hour = now.getHours();
 
        let greeting;
