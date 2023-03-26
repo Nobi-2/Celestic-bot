@@ -122,7 +122,7 @@ async function startMiku() {
     }), 'yellow'))
 
     console.log(color('\nHello, The main developers of this bot ai Team Celestic.\n\nThanks for using: Celestic MD.', 'aqua'))
-    console.log(color('\nKonnichiwa Now connecting\n\n', 'aqua'))
+    console.log(color('\nKonnichiwa Now server is connecting\n\n', 'aqua'))
 
 
 
