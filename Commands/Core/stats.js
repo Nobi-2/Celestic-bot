@@ -49,5 +49,6 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 ♨️Botname : ${botName}
 🟣Author : Team Celestic
 ♓Version : Celestic v8.0
+📛Celestic type = javascript (js)
 🕰️Uptime: ${runtime(uptime)}`;
         }
