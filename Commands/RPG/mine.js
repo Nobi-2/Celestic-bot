@@ -70,7 +70,7 @@ let ments = [m.sender]
 
 const listMessage = {
 footer: `*${botName}*`,
-text: 'Powered By TEAM ATLAS',
+text: 'Powered By TEAM CELESTIC',
 title: con,
 buttonText: `CLICK HERE ⎙`,
 mentions: ments,
