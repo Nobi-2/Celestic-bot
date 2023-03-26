@@ -22,7 +22,8 @@ module.exports = {
       var mentionedUser = m.quoted.sender;
     } else {
       var mentionedUser = mentionByTag[0];
-    }
+    } else {
+      var mentionedUser = m.sender;  
         
         let user = (await mentionedUser) || m.msg.contextInfo.participant; 
          const cara = "cara"
