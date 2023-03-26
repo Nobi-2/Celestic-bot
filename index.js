@@ -113,7 +113,7 @@ async function startMiku() {
         clearState,
     } = await getAuthFromDatabase()
 
-    console.log(color(figlet.textSync('Celestic Bot MD', {
+    console.log(color(figlet.textSync('CELESTIC BOT MD', {
         font: 'Pagga',
         horizontalLayout: 'default',
         vertivalLayout: 'default',
@@ -121,7 +121,7 @@ async function startMiku() {
         whitespaceBreak: true
     }), 'yellow'))
 
-    console.log(color('\nHello, I am Lucky, the main developer of this bot.\n\nThanks for using: Celestic MD made by my Team Celestic.', 'aqua'))
+    console.log(color('\nHello, The main developers of this bot ai Team Celestic.\n\nThanks for using: Celestic MD.', 'aqua'))
     console.log(color('\nKonnichiwa Now connecting\n\n', 'aqua'))
 
 
