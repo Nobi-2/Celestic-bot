@@ -46,7 +46,7 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 🥇Mods: ${mods}
 📪Commands: ${commands}
 💬Sessions: ${sessions}
-♨️Botname : 𝄟✮͢🦋⃟≛⃝ .⃟✮⃝ Obito𝄟⃝ 𝄟✮⃝❤
+♨️Botname : 𝄟✮͢🦋⃟≛⃝✮⃝ Obito𝄟⃝ 𝄟✮⃝⃝💞
 🟣Author : Team Celestic
 ♓Version : Celstic v8.0
 🕰️Uptime: ${runtime(uptime)}`;
