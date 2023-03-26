@@ -15,7 +15,7 @@ module.exports = {
     ) => {
       if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
       var today = new Date();
-      if (today.getDay() == 6 || today.getDay() == 5 || today.getDay() == 0){
+      if (today.getDay() == 6 || today.getDay() == 5 || today.getDay() == 0 || today.getDay() == 0 || today.getDay() == 1 || today.getDay() == 2 || today.getDay() == 3 || today.getDay() == 4){
           if (text == 'help') return m.reply(`*1:* Use ${prefix}slot to play\n\n*2:* You must have 🪙100 in your wallet\n\n*3:* If you don't have money in wallet then withdraw from your bank\n\n*4:* If you don't have money in your bank too then use economy features to gain money`)
           if (text == 'money') return m.reply(`*1:* Small Win --> +🪙300\n\n*2:* Small Lose --> -🪙100\n\n*3:* Big Win --> +🪙500\n\n*4:* Big Lose --> -🪙300\n\n*5:* 🎉 JackPot --> +🪙10000`)
           const fruit1= ["🍑", "🍒", "🍇"]
@@ -72,7 +72,7 @@ module.exports = {
           }
        }
        else{
-                m.reply(`*You can only play this game during weekends*\n\n*🌱 Friday*\n*🎋 Saturday*\n*🪢 Sunday*`)
+                m.reply(`*You can Now play this game everyday*\n\n*`)
          }
     }
 }
