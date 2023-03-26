@@ -11,10 +11,6 @@ module.exports = {
     react: '📊',
     start: async (Miku, m, { text, prefix, mentionByTag, pushName, botName, isCreator, participants, modStatus, commands, store, from }) => {
       try {
-      if (!isCreator && modStatus === 'false') {
-        return Miku.sendMessage(m.from, { text: 'Sorry, only my *Owner* and *Mods* can use this command !' }, { quoted: m });
-      }
-
       const [modlist, FetchGC, totalUsers, sessionCount] = await Promise.all([
         mku.find({ addedMods: 'true' }),
         Miku.groupFetchAllParticipating(),
