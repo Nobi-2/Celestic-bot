@@ -113,7 +113,7 @@ async function startMiku() {
         clearState,
     } = await getAuthFromDatabase()
 
-    console.log(color(figlet.textSync('Atlas Bot MD', {
+    console.log(color(figlet.textSync('Celestic Bot MD', {
         font: 'Pagga',
         horizontalLayout: 'default',
         vertivalLayout: 'default',
@@ -136,7 +136,7 @@ async function startMiku() {
             level: 'silent'
         }),
         printQRInTerminal: true,
-        browser: ['Atlas MD', 'Safari', '1.0.0'],
+        browser: ['Celestic MD', 'Safari', '1.0.0'],
         auth: state,
         version
     })
@@ -155,7 +155,7 @@ async function startMiku() {
         } = update
         status = connection;
         if (connection) {
-            await console.info(`Atlas MD Server Status => ${connection}`);
+            await console.info(`Celestic MD Server Status => ${connection}`);
           }
 
         if (connection === 'close') {
