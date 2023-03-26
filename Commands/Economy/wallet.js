@@ -20,11 +20,12 @@ module.exports = {
       if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
       if (m.quoted) {
       var mentionedUser = m.quoted.sender;
-    } else {
+    }
+      if (m.quoted) {
       var mentionedUser = mentionByTag[0];
     } else {
-      var mentionedUser = m.sender;  
-        
+      var mentionedUser = m.sender;
+    }
         let user = (await mentionedUser) || m.msg.contextInfo.participant; 
          const cara = "cara"
          const balance = await eco.balance(user, cara); //Returns wallet, bank, and bankCapacity. Also creates a USer if it doesn't exist.
