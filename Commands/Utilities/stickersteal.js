@@ -12,10 +12,6 @@ module.exports = {
             var packName = packName;
             var authorName = pushName;
         }
-        else if(args.join(" ").includes("|")){
-            var packName = args.join(" ").split("|")[0];
-            var authorName = args.join(" ").split("|")[1];
-        }
         else{
             var packName = packName;
             var authorName = args.join(" ");
