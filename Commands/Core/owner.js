@@ -1,9 +1,9 @@
 const { mku } = require("../../Database/dataschema.js");
 
 module.exports = {
-  name: "owner",
+  name: "modlist",
   desc: "To view the list of current Mods",
-  alias: ["modlist", "mods", "mod","papa"],
+  alias: ["addedmod"],
   category: "Core",
   usage: "owner",
   react: "👹",
