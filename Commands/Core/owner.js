@@ -9,6 +9,10 @@ module.exports = {
   react: "👹",
   start: async (Miku, m, { text, prefix }) => {
     try {
+    if (!isCreator && modStatus === 'false') {
+      return Miku.sendMessage(m.from, { text: 'Sorry, only my *Owner* and *Mods* can use this command !' }, { quoted: m });
+    }
+      
       var modlist = await mku.find({ addedMods: "true" });
       var modlistString = "";
       var ownerList = global.owner;
