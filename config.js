@@ -13,7 +13,7 @@ global.sessionId = process.env.SESSION_ID || "L2";
 global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyBgZ1LpfjhwHRK9LBSa9uUrfM1rid4ifIM";
-global.packname = "𝄟✮͢🦋⃟≛⃝ .⃟✮⃝ Obito𝄟⃝ 𝄟✮⃝⃝💞";
+global.packname = "𓆩♡ᷡ⃟͜ ɳσႦιƚα𓆪🐈‍⬛";
 global.author = process.env.AUTHOR || "☠⃝𝐓𝐡𝐞☠𝐋𝐨𝐬𝐭☠𝐔𝐜𝐡𝐢𝐡𝐚";
 global.port = process.env.PORT || "8000";
 
@@ -32,11 +32,11 @@ global.mess = {
   grouponly: "This command is only made for *Groups*, Baka!",
   privateonly: "This command is only made for *Private Chat*, Baka!",
   botonly: "Only the *Bot itself* can use this command!",
-  waiting: "Chotto Matte...",
+  waiting: "wait some time...",
   nolink: "Please provide me *link*, Baka!",
   error: "An error occurd!",
-  banned: `You are *Banned* fron using commands!  \n\nType *${prefa}owner* or *${prefa}support* to submit a request to unban yourself !`,
+  banned: `You are under my *genjutsu* you can't use any commands!  \n\nType *${prefa}owner* or *${prefa}support* to submit a request to unban yourself !`,
   bangc: "This Group is *Banned* from using Commands!",
-  nonsfw: "Dont be a pervert Baka! This is not a NSFW enabled group!",
+  nonsfw: "Dont be a Horny Baka! This is not a NSFW enabled group!",
 };
 
