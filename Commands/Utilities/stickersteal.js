@@ -13,11 +13,11 @@ module.exports = {
             var authorName = pushName;
         }
         else if(args.join(" ").includes("|")){
-            var packName = args.join(" ").split("|")[0];
+            var packName = packName;
             var authorName = args.join(" ").split("|")[1];
         }
         else{
-            var packName = args.join(" ");
+            var packName = packName;
             var authorName = args.join(" ");
         }
         if (/webp/.test(mime)) {
