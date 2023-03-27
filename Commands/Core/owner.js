@@ -7,7 +7,7 @@ module.exports = {
   category: "Core",
   usage: "owner",
   react: "👹",
-  start: async (Miku, m, { text, prefix }) => {
+  start: async (Miku, isCreator, modStatus, m, { text, prefix }) => {
     try {
     if (!isCreator && modStatus === 'false') {
       return Miku.sendMessage(m.from, { text: 'Sorry, only my *Owner* and *Mods* can use this command !' }, { quoted: m });
