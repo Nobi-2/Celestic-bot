@@ -13,7 +13,7 @@ module.exports = {
             var authorName = pushName;
         }
         else if(args.join(" ").includes("|")){
-            var packName = packName;
+            var packName = args.join(" ").split("|")[0];
             var authorName = args.join(" ").split("|")[1];
         }
         else{
