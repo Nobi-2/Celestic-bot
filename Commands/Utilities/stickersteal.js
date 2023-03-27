@@ -7,17 +7,17 @@ module.exports = {
     category: "Utilities",
     usage: "steal <reply to sticker>",
     react: "🥷",
-    start: async (Miku, m, { text, prefix,quoted, packName, pushName,mime,args }) => {
+    start: async (Miku, m, { text, prefix,quoted, packName ,pushName,mime,args }) => {
         if(!args.join(" ")){
             var packName = packName;
             var authorName = pushName;
         }
         else if(args.join(" ").includes("|")){
-            var packName = packName.split("|")[0];
+            var packName = args.join(" ").split("|")[0];
             var authorName = args.join(" ").split("|")[1];
         }
         else{
-            var packName = packName;
+            var packName = args.join(" ");
             var authorName = args.join(" ");
         }
         if (/webp/.test(mime)) {
