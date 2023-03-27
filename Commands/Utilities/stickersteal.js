@@ -7,10 +7,14 @@ module.exports = {
     category: "Utilities",
     usage: "steal <reply to sticker>",
     react: "🥷",
-    start: async (Miku, m, { text, prefix,quoted,pushName,mime,args }) => {
+    start: async (Miku, m, { text, prefix,quoted, packName, pushName,mime,args }) => {
         if(!args.join(" ")){
             var packName = packName;
             var authorName = pushName;
+        }
+        else if(args.join(" ").includes("|")){
+            var packName = packName.split("|")[0];
+            var authorName = args.join(" ").split("|")[1];
         }
         else{
             var packName = packName;
