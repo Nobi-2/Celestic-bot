@@ -14,7 +14,7 @@ global.prefa = process.env.PREFIX || ".";
 global.tenorApiKey =
   process.env.TENOR_API_KEY || "AIzaSyBgZ1LpfjhwHRK9LBSa9uUrfM1rid4ifIM";
 global.packname = process.env.PACKNAME || "𝐶𝑒𝑙𝑒𝑠𝑡𝑖𝑐🖤";
-global.author = process.env.AUTHOR || "ℂ𝕖𝕝𝕖𝕤𝕥𝕚𝕔 𝕞𝕕🐈‍⬛";
+global.author = process.env.AUTHOR || "𝕋𝕖𝕒𝕞 ℂ𝕖𝕝𝕖𝕤𝕥𝕚𝕔🦅";
 global.port = process.env.PORT || "8000";
 
 module.exports = {
