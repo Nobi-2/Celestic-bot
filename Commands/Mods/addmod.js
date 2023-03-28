@@ -2,7 +2,7 @@ const { mku } = require("../../Database/dataschema.js");
 
 module.exports = {
   name: "addmod",
-  alias: ["makemod"],
+  alias: ["makemod","givepower"],
   desc: "To made an user Mod",
   category: "Mods",
   usage: "addmod @user",
@@ -15,14 +15,14 @@ module.exports = {
     if (modStatus == "false" && !isCreator)
       return Miku.sendMessage(
         m.from,
-        { text: "Sorry, only my *Owner* and *Mods* can use this command !" },
+        { text: "Sorry, only my *Owner* and *Mods* can use this command👹 !" },
         { quoted: m }
       );
 
     if (!text && !m.quoted) {
       return Miku.sendMessage(
         m.from,
-        { text: `Please tag a user to make *Mod*!` },
+        { text: `Please tag a user 👄to make *Mod*!` },
         { quoted: m }
       );
     } else if (m.quoted) {
@@ -49,7 +49,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } has been added to *Mods* Successfully !`,
+                } 🐱has been added to *Mods* Successfully !`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
@@ -68,7 +68,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } has been added to *Mods* Successfully !`,
+                } 🐱has been added to *Mods* Successfully !`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
@@ -90,7 +90,7 @@ module.exports = {
               return Miku.sendMessage(
                 m.from,
                 {
-                  text: `@${mentionedUser.split("@")[0]} is already a *Mod* !`,
+                  text: `@${mentionedUser.split("@")[0]} is already a *Mod*😹 !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -106,7 +106,7 @@ module.exports = {
                 {
                   text: `@${
                     mentionedUser.split("@")[0]
-                  } has been added to *Mods* Successfully !`,
+                  } 🐱has been added to *Mods* Successfully !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -122,7 +122,7 @@ module.exports = {
                 {
                   text: `@${
                     mentionedUser.split("@")[0]
-                  } has been added to *Mods* Successfully !`,
+                  } 🐱has been added to *Mods* Successfully !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
