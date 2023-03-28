@@ -11,17 +11,14 @@ module.exports = {
         if(!args.join(" ")){
             var packName = pushName;
             var authorName = pushName;
-            var botName = "${botName}";
         }
         else if(args.join(" ").includes("|")){
             var packName = args.join(" ").split("|")[0];
             var authorName = args.join(" ").split("|")[1];
-            var botName = "${botName}";
         }
         else{
             var packName = args.join(" ");
-            var authorName = args.join(" ");;
-            var botName = "${botName}";
+            var authorName = args.join(" ");
         }
         if (/webp/.test(mime)) {
             let mediaMess = await quoted.download();
