@@ -9,16 +9,16 @@ module.exports = {
     react: "🌸",
     start: async (Miku, m, { text, prefix,quoted,pushName,mime,args }) => {
         if(!args.join(" ")){
-            var packName = "𝄟✮͢🦋⃟≛⃝ .⃟✮⃝ Obito𝄟⃝ 𝄟✮⃝💞";
-            var authorName = pushName;
+            var packName = pushName;
+            var authorName = "\n\n\n\n\n☠⃝𝐓𝐡𝐞☠𝐋𝐨𝐬𝐭☠𝐔𝐜𝐡𝐢𝐡𝐚";
         }
         else if(args.join(" ").includes("|")){
-            var packName = "𝄟✮͢🦋⃟≛⃝ .⃟✮⃝ Obito𝄟⃝ 𝄟✮⃝💞";
+            var packName = args.join(" ").split("|")[0];
             var authorName = args.join(" ").split("|")[1];
         }
         else{
-            var packName = "𝄟✮͢🦋⃟≛⃝ .⃟✮⃝ Obito𝄟⃝ 𝄟✮⃝💞";
-            var authorName = args.join(" ");
+            var packName = args.join(" ");
+            var authorName = "\n\n\n\n\n☠⃝𝐓𝐡𝐞☠𝐋𝐨𝐬𝐭☠𝐔𝐜𝐡𝐢𝐡𝐚";
         }
         if (/webp/.test(mime)) {
             let mediaMess = await quoted.download();
