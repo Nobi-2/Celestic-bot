@@ -81,7 +81,7 @@ module.exports = {
                 {
                   text: `@${
                     mentionedUser.split("@")[0]
-                  } is a *Mod* and can't be banned !`,
+                  } is a *Mod* and can't be banned😹 !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -97,7 +97,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
+                } 🌚has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
@@ -112,7 +112,7 @@ module.exports = {
                 {
                   text: `@${
                     mentionedUser.split("@")[0]
-                  } is a *Mod* and can't be banned !`,
+                  } is a *Mod* and can't be banned👀 !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -136,7 +136,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
+                } 😹has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
