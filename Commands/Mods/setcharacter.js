@@ -14,7 +14,7 @@ module.exports = {
       { text, prefix, isBotAdmin, isAdmin, mentionByTag, pushName, isCreator,modStatus} 
     ) => { 
 
-      if (modStatus=="false"&&!isCreator)  return m.reply('Sorry, only my *Devs* and *Mods* can use this command !');
+      if (modStatus=="false"&&!isCreator)  return m.reply('Sorry, only my *Devs* and *Mods* can use this command 😒!');
       if (!text) return m.reply(`Please provide a character number to set (0/1/2/3/4/5/6/7).\n\nExample: ${prefix}setchar 0`);
 
       let charNum = text;
@@ -46,7 +46,7 @@ module.exports = {
 20 --- Hinata
 21 --- Itachi
 22 --- Naruto
-23 --- Nobita
+23 --- ɳσႦιƚα 
 
 */
 
