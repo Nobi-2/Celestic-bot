@@ -20,13 +20,13 @@ module.exports = {
     if (!text)
       return Miku.sendMessage(
         m.from,
-        { text: "Please provide a valid WhatsApp group link !" },
+        { text: "Please provide a valid WhatsApp group link 😶!" },
         { quoted: m }
       );
     if (!args[0].includes("whatsapp.com"))
       return Miku.sendMessage(
         m.from,
-        { text: "Please provide a valid WhatsApp group link !" },
+        { text: "Please provide a valid WhatsApp group link 😶!" },
         { quoted: m }
       );
     let gcJoinCode = args[0].split("https://chat.whatsapp.com/")[1];
@@ -41,7 +41,7 @@ module.exports = {
           Miku.sendMessage(
             m.from,
             {
-              text: `_Failed to join group ! Maybe bot was removed from there before !_`,
+              text: `_Failed to join group 😹! Maybe bot was removed from there before 😒!_`,
             },
             { quoted: m }
           );
@@ -51,7 +51,7 @@ module.exports = {
         Miku.sendMessage(
           m.from,
           {
-            text: `_Failed to join group ! Maybe bot was removed from there before !_`,
+            text: `_Failed to join group 😹! Maybe bot was removed from there before 😒!_`,
           },
           { quoted: m }
         );
