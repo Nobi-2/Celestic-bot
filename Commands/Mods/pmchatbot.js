@@ -23,14 +23,14 @@ module.exports = {
         Miku.sendMessage(
           m.from,
           {
-            text: `*PM Chatbot Activated! *\n\nBot will reply to all personal messages.`,
+            text: `*PM Chatbot Activated❄️! *\n\nBot will reply to all personal messages.`,
           },
           { quoted: m }
         );
         return Miku.sendMessage(
           m.from,
           {
-            text: `*PM Chatbot Activated !*\n\nBot will reply to all personal messages.`,
+            text: `*PM Chatbot Activated❄️ !*\n\nBot will reply to all personal messages.`,
           },
           { quoted: m }
         );
@@ -39,14 +39,14 @@ module.exports = {
           return Miku.sendMessage(
             m.from,
             {
-              text: `*Already activated.*\n\nBot will reply to all personal messages.`,
+              text: `*Already activated🐱.*\n\nBot will reply to all personal messages.`,
             },
             { quoted: m }
           );
         await mkchar.updateOne({ id: "1" }, { PMchatBot: "true" });
         return Miku.sendMessage(
           m.from,
-          { text: `*PM Chatbot Activated !*` },
+          { text: `*PM Chatbot Activated❄️ !*` },
           { quoted: m }
         );
       }
@@ -55,7 +55,7 @@ module.exports = {
         await new mkchar({ id: "1", PMchatBot: "false" }).save();
         return Miku.sendMessage(
           m.from,
-          { text: `*PM Group Chatbot De-Activated!*` },
+          { text: `*PM Group Chatbot De-Activated😶!*` },
           { quoted: m }
         );
       } else {
