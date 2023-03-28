@@ -25,13 +25,13 @@ module.exports = {
     if (modStatus == "false" && !isCreator)
       return Miku.sendMessage(
         m.from,
-        { text: "Sorry, only my *Owner* and *Mods* can use this command !" },
+        { text: "Sorry, only my *Owner* and *Mods* can use this command 😒!" },
         { quoted: m }
       );
     if (args[0] == "self" && m.sender != botNumber) {
       return Miku.sendMessage(
         m.from,
-        { text: "Sorry, only  *Bot hoster* can use this feature !" },
+        { text: "Sorry, only  *Bot hoster* can use this feature 😹!" },
         { quoted: m }
       );
     }
@@ -50,14 +50,14 @@ module.exports = {
         Miku.sendMessage(
           m.from,
           {
-            text: `*Private Mode* has been *Activated* !\n\nNow only *Mods* can use my commands !`,
+            text: `*Private Mode* has been *Activated* !\n\nNow only *Mods* can use my commands😾 !`,
           },
           { quoted: m }
         );
         return Miku.sendMessage(
           m.from,
           {
-            text: `*Private Mode* has been *Activated* !\n\nNow only *Mods* can use my commands !`,
+            text: `*Private Mode* has been *Activated* !\n\nNow only *Mods* can use my commands😾 !`,
           },
           { quoted: m }
         );
@@ -66,7 +66,7 @@ module.exports = {
           return Miku.sendMessage(
             m.from,
             {
-              text: `*Private Mode* is already *Activated* !\n\nNow only *Mods* can use my commands !`,
+              text: `*Private Mode* is already *Activated* !\n\nNow only *Mods* can use my commands😹 !`,
             },
             { quoted: m }
           );
@@ -74,7 +74,7 @@ module.exports = {
         return Miku.sendMessage(
           m.from,
           {
-            text: `*Private Mode* has been *Activated* !\n\nNow only *Mods* can use my commands !`,
+            text: `*Private Mode* has been *Activated* !\n\nNow only *Mods* can use my commands😹 !`,
           },
           { quoted: m }
         );
@@ -85,7 +85,7 @@ module.exports = {
         return Miku.sendMessage(
           m.from,
           {
-            text: `*Public Mode* has been *Activated* !\n\nNow *Everyone* can use my commands !`,
+            text: `*Public Mode* has been *Activated* !\n\nNow *Everyone* can use my commands🥀 !`,
           },
           { quoted: m }
         );
@@ -94,7 +94,7 @@ module.exports = {
           return Miku.sendMessage(
             m.from,
             {
-              text: `*Public Mode* is already *Activated* !\n\nNow *Everyone* can use my commands !`,
+              text: `*Public Mode* is already *Activated* !\n\nNow *Everyone* can use my commands🐱 !`,
             },
             { quoted: m }
           );
@@ -102,7 +102,7 @@ module.exports = {
         return Miku.sendMessage(
           m.from,
           {
-            text: `*Public Mode* has been *Activated* !\n\nNow *Everyone* can use my commands !`,
+            text: `*Public Mode* has been *Activated* !\n\nNow *Everyone* can use my commands🥀 !`,
           },
           { quoted: m }
         );
@@ -113,7 +113,7 @@ module.exports = {
         return Miku.sendMessage(
           m.from,
           {
-            text: `*Self Mode* has been *Activated* !\n\nNow only *Bot Hoster* can use my commands !`,
+            text: `*Self Mode* has been *Activated* !\n\nNow only *Bot Hoster* can use my commands😾 !`,
           },
           { quoted: m }
         );
@@ -122,7 +122,7 @@ module.exports = {
           return Miku.sendMessage(
             m.from,
             {
-              text: `*Self Mode* is already *Activated* !\n\nNow only *Bot Hoster* can use my commands !`,
+              text: `*Self Mode* is already *Activated* !\n\nNow only *Bot Hoster* can use my commands🐈‍⬛ !`,
             },
             { quoted: m }
           );
@@ -130,7 +130,7 @@ module.exports = {
         return Miku.sendMessage(
           m.from,
           {
-            text: `*Self Mode* has been *Activated* !\n\nNow only *Bot hoster* can use my commands !`,
+            text: `*Self Mode* has been *Activated* !\n\nNow only *Bot hoster* can use my commands🐱 !`,
           },
           { quoted: m }
         );
