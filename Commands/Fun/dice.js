@@ -10,7 +10,7 @@ module.exports = {
     if (!max)
       return Miku.sendMessage(
         m.from,
-        { text: "Please provide a maximum number of sides for the dice." },
+        { text: "Please provide a maximum number of sides for the dice🎲." },
         { quoted: m }
       );
     let roll = Math.floor(Math.random() * max) + 1;
