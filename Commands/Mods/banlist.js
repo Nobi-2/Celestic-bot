@@ -36,7 +36,7 @@ module.exports = {
       if (banlistString == "") banlistString = "No banned members found.";
       return Miku.sendMessage(
         m.from,
-        { text: `*「 Ban User List 」*\n\n${banlistString}`, mentions: mention },
+        { text: `*「 Ban User List 🦄」*\n\n${banlistString}`, mentions: mention },
         { quoted: m }
       );
     } catch (err) {
