@@ -1,6 +1,6 @@
 module.exports = {
     name: "owner",
-    alias: ["owners","mod","mods","papa"],
+    alias: ["owners","mod","dev","devinfo","developer","mods","papa"],
     desc: "Owner of bot.",
     react: "🎗",
     category: "Core",
