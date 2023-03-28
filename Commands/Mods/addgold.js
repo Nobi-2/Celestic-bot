@@ -20,7 +20,7 @@ module.exports = {
     if (modStatus == "false" && !isCreator)
       return Miku.sendMessage(
         m.from,
-        { text: "Sorry, only my *Owner* and *Mods* can use this command !" },
+        { text: "Sorry, only my *Owner* and *Mods* can use this command👹 !" },
         { quoted: m }
       );
       
