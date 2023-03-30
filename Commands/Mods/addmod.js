@@ -12,7 +12,7 @@ module.exports = {
     m,
     { text, prefix, mentionByTag, pushName, isCreator, owner, modStatus }
   ) => {
-    if (!isCreator && modStatus = "true")
+    if (modStatus == "false" && !isCreator)
       return Miku.sendMessage(
         m.from,
         { text: "Sorry, only my *Owner* and *mod* can use this command👹 !" },
