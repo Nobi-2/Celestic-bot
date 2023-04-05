@@ -28,6 +28,7 @@ module.exports = {
     } else if (`${balance.bank}` <= 90000000) {
       role = "Billionaire🤑🤑";
     }
+    
     await Miku.sendMessage(
       m.from,
       {
