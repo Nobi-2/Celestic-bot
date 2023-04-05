@@ -10,6 +10,7 @@ module.exports = {
   category: "Economy",
   react: "💵",
   start: async (Miku, m, { text, prefix, args }) => {
+    if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
     if (!text) {
       return Miku.sendMessage(
         m.from,
@@ -22,6 +23,7 @@ module.exports = {
     const num = parseInt(args[0]);
     const deposit = await eco.deposit(user, cara, num);
     if (deposit.noten) return m.reply("You can't deposit what you don't have.");
+  
     await Miku.sendMessage(
       m.from,
       {
