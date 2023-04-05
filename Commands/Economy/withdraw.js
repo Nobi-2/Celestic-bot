@@ -18,20 +18,31 @@ module.exports = {
     ) => {
 
       if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
-        if(!text)  {
-            return Miku.sendMessage( 
-                m.from, 
-                { text: `*Provide the amount you want to withdraw!*` }, 
-                { quoted: m } 
-            );
-        }
-        const user = m.sender
-        const query = text.trim();
-        const cara = 'cara'
-        const withdraw = await eco.withdraw(user, cara, query);
-        if(withdraw.noten) Miku.sendMessage(m.from, { text: '*🏧 Insufficient fund in bank*' }, { quoted: m });
-        const add = eco.give(user, cara, query);
-        Miku.sendMessage(m.from, { image: fs.readFileSync("./Assets/Img/card.png"), caption: `*🏧 ALERT*  _💶 ${withdraw.amount} has been added in your wallet._*` }, { quoted: m });
-        
-}
-}
+        if (!text) {
+      return Miku.sendMessage(
+        m.from,
+        { text: `*Provide the amount you want to withdraw!*` },
+        { quoted: m }
+      );
+    }
+    const user = m.sender;
+    const query = text.trim();
+    const cara = "cara";
+    const withdraw = await eco.withdraw(user, cara, query);
+    if (withdraw.noten)
+      Miku.sendMessage(
+        m.from,
+        { text: "*🏧 Insufficient fund in bank*" },
+        { quoted: m }
+      );
+    const add = eco.give(user, cara, query);
+    Miku.sendMessage(
+      m.from,
+      {
+        image: fs.readFileSync("./Assets/Img/card.png"),
+        caption: `*🏧 ALERT*  _💶 ${withdraw.amount} has been added in your wallet._*`,
+      },
+      { quoted: m }
+    );
+  },
+};
