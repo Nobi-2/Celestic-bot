@@ -11,6 +11,7 @@ module.exports = {
   category: "Economy",
   react: "💷",
   start: async (Miku, m, { text, prefix }) => {
+    if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
     if (!m.isGroup)
       return Miku.sendMessage(
         m.from,
