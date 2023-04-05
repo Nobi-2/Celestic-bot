@@ -418,13 +418,7 @@ module.exports = async (Miku, m, commands, chatUpdate, store) => {
         quoted: m,
       });
     }
-      await Miku.sendMessage(m.from, reactmxv);
-    
-      Miku.sendMessage(m.from, {image: {url: botImage1,},caption: mikutext,}, {
-        quoted: m,
-      });
-    }
-
+      
     if (m.message) {
       console.log(
         chalk.black(chalk.bgWhite("[ MESSAGE ]")),
