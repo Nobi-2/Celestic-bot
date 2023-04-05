@@ -68,26 +68,9 @@ module.exports = {
           );
         }
       } else {
-        let buttonsntilink = [
-          {
-            buttonId: `${prefix}nsfw on`,
-            buttonText: { displayText: "On" },
-            type: 1,
-          },
-          {
-            buttonId: `${prefix}nsfw off`,
-            buttonText: { displayText: "Off" },
-            type: 1,
-          },
-        ];
-        let bmffg = {
-          image: {url : botImage5} ,
-          caption: `\n*「 NSFW Configuration 」*\n\nPlease click the button below\n\nNote: This command will enable all adult(NSFW) commands in this group.\n`,
-          footer: `*${botName}*`,
-          buttons: buttonsntilink,
-          headerType: 4,
-        };
-        await Miku.sendMessage(m.from, bmffg, { quoted: m });
+        await Miku.sendMessage(m.from, {image: {url : botImage5} ,caption: `\n*「 NSFW Configuration 」*\n\nNote: This command will enable all adult(NSFW) commands in this group.\n\n*_Usage:_*\n\n*${prefix}nsfw on*\n*${prefix}nsfw off*\n\n*Current Status:* ${checkdata ? checkdata.switchNSFW == "true" ? "On" : "Off" : "Off"}`,}, { quoted: m });
     }
   },
 };
+
+        
