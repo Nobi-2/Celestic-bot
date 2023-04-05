@@ -26,10 +26,7 @@ module.exports = {
       });
 
     if (modStatus == "false" && !isCreator && !isAdmin)
-      return m.reply(
-
-
-"Sorry, only *GroupAdmins* and *Mods* can use this command !");
+      return m.reply("Sorry, only *GroupAdmins* and *Mods* can use this command !");
  
     let img = "https://wallpapercave.com/wp/wp9667218.png";
 
