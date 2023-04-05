@@ -53,15 +53,11 @@ module.exports = {
       },
     ];
 
-    let buttonMessage = {
-      image: { botImage1 },
-      caption: `\nThe Most ${command_name} Here Is @${random.split("@")[0]}`,
-      mentions: ments,
-      footer: `*${botName}*`,
-      buttons: buttons,
-      headerType: 4,
-    };
-
-    await Miku.sendMessage(m.from, buttonMessage, { quoted: m });
+    await Miku.sendMessage(
+      m.from,
+      { image: { botImage1 }, caption: message, mentions: ments },
+      { quoted: m }
+    );
   },
 };
+    let 
