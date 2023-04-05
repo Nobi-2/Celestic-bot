@@ -14,14 +14,8 @@ module.exports = {
     ) => {
       
         if (!isAdmin)
-        return Miku.sendMessage(
-          m.from,
-          {
-            text: `*${pushName}* must be *Admin* to turn ON/OFF NSFW !`,
-          },
-          { quoted: m }
-        );
-  
+        return m.reply(`*${pushName}* must be *Admin* to turn ON/OFF NSFW !`);
+
       let checkdata = await mk.findOne({ id: m.from });
       var groupe = await Miku.groupMetadata(m.from);
       var members = groupe["participants"];
@@ -32,20 +26,12 @@ module.exports = {
 
       if (args[0] === "on") {
         if (!checkdata) {
-          await new mk({ id: m.from, switchNSFW: "true" }).save();
-          Miku.sendMessage(
-            m.from,
-            {
-              text: `*NSFW* has been *Activated* in this group!`,
-              contextInfo: { mentionedJid: mems },
-            },
-            { quoted: m }
-          );
-          return Miku.sendMessage(
-            m.from,
-            { text: `*NSFW* has been *Activated* in this group! \n\nType *${prefix}nsfwmenu* To get full NSFW commands list.` },
-            { quoted: m }
-          );
+          await new mk({ id: m.from, switchNSFW: "true" }).save();	
+            return Miku.sendMessage(
+                m.from,
+                { text: `*NSFW* has been *Activated* in this group! \n\nType *${prefix}nsfwmenu* To get full NSFW commands list.` },
+                { quoted: m }
+              );
         } else {
           if (checkdata.switchNSFW == "true")
             return Miku.sendMessage(
