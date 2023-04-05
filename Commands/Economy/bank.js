@@ -10,6 +10,7 @@ module.exports = {
   category: "Economy",
   react: "🏦",
   start: async (Miku, m, { text, prefix }) => {
+    if (ECOstatus == "false") return m.reply(`This group is not Economy enabled!\n\nTo configure Economy mode, type:\n\n*${prefix}ecomenu*`);
     const pushname = m.pushName || "NO name";
     const user = m.sender;
     const cara = "cara";
