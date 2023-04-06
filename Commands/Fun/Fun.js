@@ -45,14 +45,7 @@ module.exports = {
     let command_name = m.text.substring(prefix.length).split(" ")[0];
     let ments = [random];
     let message = `The Most ${command_name} Here Is @${random.split("@")[0]}`;
-    let buttons = [
-      {
-        buttonId: `${prefix}hidetag`,
-        buttonText: { displayText: "👀" },
-        type: 1,
-      },
-    ];
-
+    
     await Miku.sendMessage(
       m.from,
       { image: { botImage1 }, caption: message, mentions: ments },
@@ -60,4 +53,3 @@ module.exports = {
     );
   },
 };
-    let 
