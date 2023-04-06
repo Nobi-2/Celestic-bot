@@ -1,4 +1,5 @@
-<p align="center">
+<p align="center"> <img src="https://telegra.ph/file/cc98bcb50f51063dc04e0.jpg" alt="nz" width="350"/>
+</p>
 <a href="https://github.com/lucky01u/Celestic-bot">
     <imgsrc="https://i.imgur.com/LLazhhr".jpeg>
   </a>
