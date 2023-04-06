@@ -33,7 +33,7 @@ module.exports = {
   },
 };
 
-function generateStatsText(users, banlistString, bots, groups, mods, commands, sessions, uptime) {
+function generateStatsText(users, ban, bots, groups, mods, commands, sessions, uptime) {
   return `
 *━━━❰ STATISTICS ❱━━━*
 👥Users: ${users}
@@ -46,7 +46,7 @@ function generateStatsText(users, banlistString, bots, groups, mods, commands, s
 🟣Author : Team Celestic
 ♓Version : Celestic v9.0
 ✝️Grouplimit : 15-25
-🛑banned users : ${banlistString}
+🛑banned users : ${ban}
 🀄Disabled command: 0
 📛Celestic type = javascript (js)
 🕰️Uptime: ${runtime(uptime)}`;
