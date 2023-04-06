@@ -22,26 +22,26 @@ const ty = eco.connect(config.mongodb);
         var texts = text.split(" ");
      var opp = texts[1];// your value
      var value = texts[0].toLowerCase();
-     var gg = parseInt(value)
-     const cara = "cara"
+     var gg = parseInt(value);
+     const cara = "cara";
      const balance = await eco.balance(user, cara);
-     const g = (balance.wallet) > parseInt(value)
-     const k = 20000 - 1000000000
-     const a = (k) > parseInt(value)
-     const three times = gg*3
+     const g = (balance.wallet) > parseInt(value);
+     const k = 20000 - 1000000000;
+     const a = (k) > parseInt(value);
+     const triple = gg * 3;
      const f = ["up", "right", "left", "down", "shisui", "nobita", "yuji", "lucky", "steve", "kidsama", "jiraya", "bajrang"]
      const r = f[Math.floor(Math.random () * f.length)]
      if (!text) return m.reply(
 				`Usage:  *${prefix}bet 100 left/right/up/down/AnyBotModNames*\n\nExample:  *${prefix}bet 50000 left*`
 			);
 
-            if (!value) return m.reply("*Please, specify the amount you are betting with!*");
-            if (!opp) return m.reply("*Specify the direction you are betting on!*");
-            if (!gg) return m.reply("*Check your text please, You are using the command in a wrong way*")
-            if (g == false) return m.reply(`*You don't have sufficient 🪙 Diamond to bet with*`);
+        if (!value) return m.reply("*Please, specify the amount you are betting with!*");
+        if (!opp) return m.reply("*Specify the direction you are betting on!*");
+        if (!gg) return m.reply("*Check your text please, You are using the command in a wrong way*");
+        if (g == false) return m.reply(`*You don't have sufficient 🪙 Diamond to bet with*`);
         if (a == true) return m.reply(`*Sorry ${m.pushName}, you can only bet with more than 20000 and less than 1000000000🪙.*`);
-        if ( r == opp){
-           let give = await eco.give(user , cara, threetimes);
+        if (r == opp){
+           let give = await eco.give(user , cara, triple);
            let buttons = [
             {
               buttonId: `${prefix}slot`,
@@ -57,7 +57,7 @@ const ty = eco.connect(config.mongodb);
           ];
           let buttonMessage = {
             image: fs.readFileSync("./Assets/Img/card.png"), 
-            caption: `*📈 You won 💴 ${threetimes}*`,
+            caption: `*📈 You won 💴 ${triple}*`,
             footer: `*${botName}*`,
             buttons: buttons,
             type: 4
