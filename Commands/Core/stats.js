@@ -33,7 +33,7 @@ module.exports = {
   },
 };
 
-function generateStatsText(users, bots, groups, mods, commands, sessions, ban, uptime) {
+function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) {
   return `
 *━━━❰ STATISTICS ❱━━━*
 👥Users: ${users}
