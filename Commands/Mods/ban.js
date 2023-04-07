@@ -38,7 +38,7 @@ module.exports = {
         { text: `Please tag a user to *Ban*!` },
         { quoted: m }
       );
-    }else if (m.quoted) {
+    } else if (m.quoted) {
       var mentionedUser = m.quoted.sender;
     } else {
       var mentionedUser = mentionByTag[0];
