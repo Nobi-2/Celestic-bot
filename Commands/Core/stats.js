@@ -46,7 +46,7 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 🟣Author : Team Celestic
 ♓Version : Celestic v9.0
 ✝️Grouplimit : 15-25
-🛑banned users : ${ban}
+🛑banned users : 1
 🀄Disabled command: 0
 📛Celestic type = javascript (js)
 🕰️Uptime: ${runtime(uptime)}`;
