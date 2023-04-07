@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   name: "trivia",
-  alias: ["question"],
+  alias: ["question","qu"],
   desc: "To get some question answers.",
   usage: "question easy/medium/hard",
   react: "🐾",
