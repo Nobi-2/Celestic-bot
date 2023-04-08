@@ -16,7 +16,6 @@ module.exports = {
     if (!isAdmin) return m.reply(`*${pushName}* must be admin in order to use this command !`)
     if (!isAdmin && !isBotAdmin) return m.reply(`Bot and *${pushName}* both must be admin in order to use this command !`)
     if (!text && !m.quoted) return m.reply(`Please tag a user to *Remove* from group!`)
-    };
 
        } else if (m.quoted) {
       var mentionedUser = m.quoted.sender;
