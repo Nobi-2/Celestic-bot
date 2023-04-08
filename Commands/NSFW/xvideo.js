@@ -17,11 +17,11 @@ module.exports = {
   return reply('Please provide a ❌videos search term to get video!');
 }
 
-    let res = await axios.get("https://fantox001-scrappy-api.vercel.app/xvideos?search=" + searchQuery)
+     let res = await axios.get("https://fantox001-scrappy-api.vercel.app/xvideos?search=" + searchQuery)
 
-const scrappedURL = res.data.videoUrl
+     const scrappedURL = res.data.videoUrl
 
-    let bmffg = {
+     let bmffg = {
       video: {url: scrappedURL},
       caption: `\n_*❌Videos Downloader*_\n\n*Scrappy API - by FantoX*\n\n_*Url:*_ https://github.com/FantoX001/Scrappy-API \n`,
     };
