@@ -13,11 +13,11 @@ module.exports = {
     m.reply(`Downloading video...`)
     const searchQuery = args.join(" ");
 
-if(!searchQuery){
+    if(!searchQuery){
   return reply('Please provide a ❌videos search term to get video!');
 }
 
-let res = await axios.get("https://fantox001-scrappy-api.vercel.app/xvideos?search=" + searchQuery)
+    let res = await axios.get("https://fantox001-scrappy-api.vercel.app/xvideos?search=" + searchQuery)
 
 const scrappedURL = res.data.videoUrl
 
