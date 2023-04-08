@@ -13,8 +13,9 @@ module.exports = {
     m,
     { text, prefix, isBotAdmin, isAdmin, mentionByTag, pushName, mime, quoted }
   ) => {
-    if (!isAdmin && !isBotAdmin) return m.reply(`Bot and *${pushName}* both must be admin in order to use this command !`);
-
+    if (!isAdmin) return m.reply(`*${pushName}* must be admin in order to use this command !`);
+    if (!isBotAdmin) return m.reply(`Bot must be admin in order to use this command !`);
+    
     if (!/image/.test(mime))
       return Miku.sendMessage(
         m.from,
