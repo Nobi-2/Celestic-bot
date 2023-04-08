@@ -8,8 +8,9 @@ module.exports = {
   start: async (
     Miku,
     m,
-    { text, prefix, isAdmin, participants, args, buttonId }
+    { text, prefix, isAdmin, isCreator, participants, args, buttonId }
   ) => {
+    if (!isCreator) return m.reply(`*${pushName}* must be owner in order to use this command !`);
     var message = "*『 Attention Here 』*";
 
     if (m.quoted) {
