@@ -1,6 +1,6 @@
 {
-  "name": "Celestic-bot",
-  "version": "9.0.0",
+  "name": "atlas",
+  "version": "2.0.0",
   "description": "Most Advanced WhatsApp Bot ever made.",
   "main": "index.js",
   "scripts": {
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucky01u/Celestic-bot.git"
+    "url": "git+https://github.com/FantoX001/Atlas-MD.git"
   },
   "keywords": [
     "bot"
   ],
-  "author": "Team Celestic",
+  "author": "Fanto001",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucky01u/Celestic-bot/issues"
+    "url": "https://github.com/FantoX001/Atlas-MD/issues"
   },
-  "homepage": "https://github.com/lucky01u/Celestic-bot#readme",
+  "homepage": "https://github.com/FantoX001/Atlas-MD#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
