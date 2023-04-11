@@ -12,7 +12,7 @@ module.exports = async (Miku, anu) => {
       try {
         ppuser = await Miku.profilePictureUrl(num, "image");
       } catch {
-        ppuser = botImage4;
+        ppuser = botImage2;
       }
 
       if (anu.action == "add") {
