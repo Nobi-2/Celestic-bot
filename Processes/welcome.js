@@ -1,7 +1,7 @@
 const { mk } = require("../Database/dataschema.js");
 require("../Core.js");
 
-module.exports = async (Miku, m, anu) => {
+module.exports = async (Miku, anu, m) => {
   try {
     let metadata = await Miku.groupMetadata(anu.id);
     let participants = anu.participants;
