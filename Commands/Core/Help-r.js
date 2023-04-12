@@ -36,11 +36,11 @@ module.exports = {
 function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) {
   return `
 *━━❰ CELSTIC RULES ❱━━*
-*1) Users have to join support gc for any query type support to get link*
-*2)users can join casino gc to get economy features type casino to get casino link*
-*3) users can't spam in support gc not any gc that have bot*
-*4)don't spam or text in dm or u will be blocked*
-*5)if u call bot u will be banned*
+*1) Users have to join our support group for any query. Type ${prefix}support to get link*
+*2) Users can join casino group to get economy features type casino to get casino link*
+*3) Don't Spam. If you spam you will be banned*
+*4) Don't spam or text bot Personal chat. Otherwise you will be blocked*
+*5  If you call bot You will be banned*
 *6)don't send gc link in casino gc*
 *7)currently only one bot is on so no more gcs aftee public bot come then u can have more gcs*
 *8)if u bee active in our group you will get prizes*
