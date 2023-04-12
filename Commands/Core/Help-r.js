@@ -46,6 +46,5 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 *8)if u bee active in our group you will get prizes*
 *9)we can give bot in some chooses gcs*
 *10)we don't need more mods don't ask for mods*
-*11)bot will be added in activate and 70+ members groups*               
-*12)preifx of our bots are various now and working bots preifx are boruto- : , Bajrang - ! , Nobita - # etc*`;
-   }
+*11)bot will be added in activate and 70+ members groups*`;
+    }
