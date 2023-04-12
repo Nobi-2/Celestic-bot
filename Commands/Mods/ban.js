@@ -2,11 +2,11 @@ const { mku } = require("../../Database/dataschema.js");
 
 module.exports = {
   name: "ban",
-  alias: ["banuser","genjutsu","lodu"],
+  alias: ["banuser"],
   desc: "Ban a member",
   category: "core",
   usage: "ban @user",
-  react: "👺",
+  react: "🎀",
   start: async (
     Miku,
     m,
@@ -38,7 +38,7 @@ module.exports = {
         { text: `Please tag a user to *Ban*!` },
         { quoted: m }
       );
-    } else if (m.quoted) {
+    }else if (m.quoted) {
       var mentionedUser = m.quoted.sender;
     } else {
       var mentionedUser = mentionByTag[0];
@@ -79,7 +79,7 @@ module.exports = {
                 {
                   text: `@${
                     mentionedUser.split("@")[0]
-                  } is a *Mod* and can't be banned😹 !`,
+                  } is a *Mod* and can't be banned !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -95,7 +95,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } 🌚has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
+                } has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
@@ -110,7 +110,7 @@ module.exports = {
                 {
                   text: `@${
                     mentionedUser.split("@")[0]
-                  } is a *Mod* and can't be banned👀 !`,
+                  } is a *Mod* and can't be banned !`,
                   mentions: [mentionedUser],
                 },
                 { quoted: m }
@@ -134,7 +134,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } 😹has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
+                } has been *Banned* Successfully by *${pushName}*\n\n *Reason*: ${banreason}`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
