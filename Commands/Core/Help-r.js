@@ -5,7 +5,7 @@ const { runtime } = require('../../lib/myfunc.js');
 module.exports = {
     name: 'rules',
     desc: 'Displays bot rules',
-    alias: ['r','botrules'],
+    alias: ['r','help-r'],
     category: 'Core',
     usage: 'stats',
     react: '📊',
