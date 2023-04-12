@@ -100,21 +100,7 @@ module.exports = {
               },
               { quoted: m }
             );
-          } else {
-            if (
-              modStatus == "true" ||
-              ownerlist.includes(`${mentionedUser.split("@")[0]}`)
-            )
-              return Miku.sendMessage(
-                m.from,
-                {
-                  text: `@${
-                    mentionedUser.split("@")[0]
-                  } is a *Mod* and can't be banned !`,
-                  mentions: [mentionedUser],
-                },
-                { quoted: m }
-              );
+          
             if (user.ban == "true")
               return Miku.sendMessage(
                 m.from,
