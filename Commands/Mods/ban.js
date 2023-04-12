@@ -96,6 +96,8 @@ module.exports = {
                 },
                 { quoted: m }
               );
+            } else {
+            if (user.ban == "false")
             await mku.findOneAndUpdate(
               { id: userId },
               { $set: { ban: true, reason: banreason, gcname: GroupName } },
