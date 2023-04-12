@@ -33,7 +33,7 @@ module.exports = {
   },
 };
 
-function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) {
+function generateStatsText(users, bots, groups, mods, prefix, commands, sessions, uptime) {
   return `
 *━━❰ CELSTIC RULES ❱━━*
 *1) Users have to join our support group for any query. Type ${prefix}support to get link*
