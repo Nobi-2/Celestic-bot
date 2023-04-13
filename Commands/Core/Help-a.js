@@ -33,33 +33,29 @@ module.exports = {
   },
 };
 
-function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) 
+function generateStatsText(users, bots, pushName, prefix, groups, mods, commands, sessions, uptime) 
   return `
 *━━━❰ DETAILS ❱━━━*
 
 
-*hello user i am celest-bot by team celestic here is teh information about our bot*
-
-our bots
-*1)gamebot = our gamebot have poke features specially and we wilm soon add poke battle tganks type (-help) to geg its feature*
-*2)main bot that us totally modified nd devloped by tema celestic form atlas repo tyoe {$prefix help} to get information*
-3) pubic bots for everyone can deploy
-js bot repo = repo not found
-ts repo = under devlopment 
-
-CELSTIC BOTZ CONTACTS `;
- TELEGRAM = https://t.me/+zJpompWc6SE1YTI9
- DISCORD = https://discord.gg/ETEZrh6a6k
- CASINO = https://chat.whatsapp.com/DrY5MBaiDRS9BAcpCpJQCv
- WHATSAAP = https://chat.whatsapp.com/EodcJDysqP0LInOzcaPRC1
- WEBSITE =   https://celestic-website-2.celestic1.repl.co
- YOUTUBE =  https://youtube.com/@CELESTIC-bottoinc
- MAIN WEB = https://celesticbotz.000webhostapp.com/
- GMAIL = Celestic.bot.inc@gmail.com
+* ʜᴇʟʟᴏ ${pushName} sᴇɴᴘᴀɪ*
+ᴛʜᴇ ʟɪsᴛ ᴏғ ᴏᴜʀ ʙᴏᴛs
+*1) ɢᴀᴍᴇʙᴏᴛ = ᴏᴜʀ ɢᴀᴍᴇʙᴏᴛ ʜᴀᴠᴇ ᴘᴏᴋᴇ ғᴇᴀᴛᴜʀᴇs sᴘᴇᴄɪᴀʟʟʏ ᴀɴᴅ ᴡᴇ ᴡɪʟʟ ᴀᴅᴅ ᴘᴏᴋᴇ ʙᴀᴛᴛʟᴇ sᴏᴏɴ. ᴛʏᴘᴇ ${prefix}ʜᴇʟᴘ ᴛᴏ ɢᴇᴛ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs*
+*2) ᴍᴀɪɴ ʙᴏᴛ ɪs ᴛᴏᴛᴀʟʟʏ ᴍᴏᴅɪғɪᴇᴅ ʙʏ ᴛᴇᴀᴍ ᴄᴇʟᴇsᴛɪᴄ ғʀᴏᴍ ᴀᴛʟᴀs ʀᴇᴘᴏ. ᴛʏᴘᴇe ${prefix}ʜᴇʟᴘ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ*\n\n
+ ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ᴄᴏɴᴛᴀᴄᴛs
+ ᴛᴇʟᴇɢʀᴀᴍ = https://t.me/+zJpompWc6SE1YTI9
+ ᴅɪsᴄᴏʀᴅ = https://discord.gg/ETEZrh6a6k
+ ᴄᴀsɪɴᴏ = https://chat.whatsapp.com/DrY5MBaiDRS9BAcpCpJQCv
+ ᴡʜᴀᴛsᴀᴀᴘ = https://chat.whatsapp.com/EodcJDysqP0LInOzcaPRC1
+ ᴡᴇʙsɪᴛᴇ =   https://celestic-website-2.celestic1.repl.co
+ ʏᴏᴜᴛᴜʙᴇ =  https://youtube.com/@CELESTIC-bottoinc
+ ᴍᴀɪɴ ᴡᴇʙ = https://celesticbotz.000webhostapp.com/
+ ɢᴍᴀɪʟ = Celestic.bot.inc@gmail.com
  
- TO CONTACT MODS TYPE {$PREFIX} DEVS
+ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴏᴅs ᴛʏᴘᴇ ${prefix}ᴅᴇᴠs
 
-CELESTIC BOTZ INC 2023 BY TEAM CELESTIC
+ ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ɪɴᴄ©2023 ʙʏ ᴛᴇᴀᴍ ᴄᴇʟᴇsᴛɪᴄ
 
-footer = CELESTIC BOTZ INC`;
-             }
+footer = ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ɪɴᴄ`;
+ }
+
