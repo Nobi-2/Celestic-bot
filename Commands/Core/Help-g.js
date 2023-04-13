@@ -12,7 +12,7 @@ module.exports = {
         const secs = Math.floor(seconds % 60);
         return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
         };
-let text = `*━━━❰ GAMEBOT ❱━━━*
+let textHelpMenu = `*━━━❰ GAMEBOT ❱━━━*
 TYPE ${prefix}HELP 
 
 *➩ Characters Side*
@@ -57,7 +57,7 @@ TYPE ${prefix}HELP
 
 📕 *Note: we are doing iur best to bring update*
 `;
-await Miku.sendMessage(m.from, {video: { url: botVideo }, gifPlayback: true, caption: text,}, { quoted: m });
+await Miku.sendMessage(m.from, {video: { url: botVideo }, gifPlayback: true, caption: textHelpMenu,}, { quoted: m });
     }
   },
 };
