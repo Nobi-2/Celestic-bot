@@ -5,14 +5,14 @@ module.exports = {
     category: 'Core',
     usage: 'stats',
     react: '🔢',
-    start: async (Miku, m, { text, prefix, mentionByTag, pushName, botName, isCreator, participants, modStatus, commands, store, from }) => {
-      try {
-      const [modlist, FetchGC, totalUsers, sessionCount] = await Promise.all([
-        mku.find({ addedMods: 'true' }),
-        Miku.groupFetchAllParticipating(),
-        mku.find({}),
-        sessionSchema.countDocuments(),
-      ]);
+    start: async(Miku, m,{text, pushName,prefix}) => {
+        const pad = (s) => (s < 10 ? "0" : "") + s;
+        const formatTime = (seconds) => {
+        const hours = Math.floor(seconds / (60 * 60));
+        const minutes = Math.floor((seconds % (60 * 60)) / 60);
+        const secs = Math.floor(seconds % 60);
+        return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
+        };
 let text = `*━━━❰ DETAILS ❱━━━*
 *ʜᴇʟʟᴏ ${pushName} sᴇɴᴘᴀɪ*
 ᴛʜᴇ ʟɪsᴛ ᴏғ ᴏᴜʀ ʙᴏᴛs
