@@ -35,13 +35,8 @@ module.exports = {
 
 function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) {
   return `
-*━━━❰ STATISTICS ❱━━━*
-*gamebot commands*
-*🎐 Hello There!! {pushname}⁩*
-*🎉 I'm Celestic--Bot*
-*🧧My prefix is - "-"*
-*🌟My Owner = Team Celestic*
-*🏮 My Command List 🏮*
+*━━━❰ GAMEBOT ❱━━━*
+TYPE -HELP 
 
 *➩ Characters Side*
 
