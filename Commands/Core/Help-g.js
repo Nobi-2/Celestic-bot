@@ -8,7 +8,7 @@ module.exports = {
     alias: ['menu-g','h-g'],
     category: 'Core',
     usage: 'stats',
-    start: async(Miku, m,{pushName,prefix}) => {
+    start: async(Miku, m,{text, pushName,prefix}) => {
         const pad = (s) => (s < 10 ? "0" : "") + s;
         const formatTime = (seconds) => {
         const hours = Math.floor(seconds / (60 * 60));
@@ -16,7 +16,7 @@ module.exports = {
         const secs = Math.floor(seconds % 60);
         return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
         };
-let Text = `*━━━❰ GAMEBOT ❱━━━*
+let text = `*━━━❰ GAMEBOT ❱━━━*
 TYPE ${prefix}HELP 
 
 *➩ Characters Side*
@@ -61,7 +61,7 @@ TYPE ${prefix}HELP
 
 📕 *Note: we are doing iur best to bring update*
 `;
-await Miku.sendMessage(m.from, {video: { url: botVideo }, gifPlayback: true, caption: Text,}, { quoted: m });
+await Miku.sendMessage(m.from, {video: { url: botVideo }, gifPlayback: true, caption: text,}, { quoted: m });
     }
   },
 };
