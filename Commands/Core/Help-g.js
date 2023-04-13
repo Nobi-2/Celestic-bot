@@ -1,7 +1,3 @@
-const { mku } = require('../../Database/dataschema.js');
-const { sessionSchema } = require('../../Database/index.js');
-const { runtime } = require('../../lib/myfunc.js');
-
 module.exports = {
     name: 'help-g',
     desc: 'Displays bot lists',
