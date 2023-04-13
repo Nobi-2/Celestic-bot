@@ -33,7 +33,7 @@ module.exports = {
   },
 };
 
-function generateStatsText(users, bots, pushName, prefix, groups, mods, commands, sessions, uptime) 
+function generateStatsText(users, bots, pushName, prefix, groups, mods, commands, sessions, uptime) {
   return `
 *━━━❰ DETAILS ❱━━━*
 
