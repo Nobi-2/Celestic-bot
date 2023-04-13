@@ -13,7 +13,7 @@ module.exports = {
         const secs = Math.floor(seconds % 60);
         return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
         };
-let textHelpMenu = `*━━━❰ DETAILS ❱━━━*
+        let textHelpMenu = `*━━━❰ DETAILS ❱━━━*
 *ʜᴇʟʟᴏ ${pushName} sᴇɴᴘᴀɪ*
 ᴛʜᴇ ʟɪsᴛ ᴏғ ᴏᴜʀ ʙᴏᴛs
 *1) ɢᴀᴍᴇʙᴏᴛ = ᴏᴜʀ ɢᴀᴍᴇʙᴏᴛ ʜᴀᴠᴇ ᴘᴏᴋᴇ
@@ -38,7 +38,6 @@ let textHelpMenu = `*━━━❰ DETAILS ❱━━━*
  ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ɪɴᴄ©2023 ʙʏ ᴛᴇᴀᴍ ᴄᴇʟᴇsᴛɪᴄ
 
 ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ɪɴᴄ`;
-await Miku.sendMessage(m.from, {video: { url: botVideo }, gifPlayback: true, caption: textHelpMenu,}, { quoted: m });
-    }
-  },
-};
+        await Miku.sendMessage(m.from, {video: { url: botVideo }, gifPlayback: true, caption: textHelpMenu,}, { quoted: m });
+     }
+}
