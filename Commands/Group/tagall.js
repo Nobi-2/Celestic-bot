@@ -19,16 +19,16 @@ module.exports = {
       ? m.quoted.msg
       : "No Message";
 
-    let mess = `               *『 summoning jutsu 🖤 』*
+    let mess = `               *『 sᴜᴍᴍᴏɴɪɴɢ ᴊᴜᴛsᴜ 🖤 』*
     
-*Tagged by:* @${m.sender.split("@")[0]}
+* sᴜᴍᴍᴏɴᴇᴅ ʙʏ:* @${m.sender.split("@")[0]}
     
 *Message:* ${message}\n\n`;
 
     for (let mem of participants) {
       mess += `♢ @${mem.id.split("@")[0]}\n`;
     }
-    mess += `\n\n                    *Thank You*\n`;
+    mess += `\n\n                    *ᴛʜᴀɴᴋ ʏᴏᴜ*\n`;
 
     await Miku.sendMessage(
       m.from,
