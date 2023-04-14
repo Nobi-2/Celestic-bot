@@ -42,4 +42,3 @@ class Collections extends Map {
 }
 
 module.exports = Collections
-// hi
