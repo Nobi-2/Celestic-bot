@@ -200,4 +200,4 @@ exports.serialize = (conn, m, options = {}) => {
     m.reply = (text, chatId = m.from, options = {}) => Buffer.isBuffer(text) ? conn.sendFile(chatId, text, 'file', '', m, { ...options }) : conn.sendText(chatId, text, m, { ...options })
 
     return m
-}
+}h
