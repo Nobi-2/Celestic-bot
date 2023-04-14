@@ -41,8 +41,18 @@ module.exports = {
         }
        ]
    },
+{
+           "title": "🔖3． PLATINUMPICKAXE",
+    "rows": [
         {
-           "title": "🔖３． ＳＴＯＮＥＰＩＣＫＡＸＥ",
+            "title": `${prefix}mine`,
+            "description": `${inventory.platinumpickaxe}`,
+            "rowId": `${prefix}hunt2 platinumpickaxe`
+        }
+       ]
+   },
+        {
+           "title": "🔖4． ＳＴＯＮＥＰＩＣＫＡＸＥ",
     "rows": [
         {
             "title": `${prefix}mine`,
@@ -52,7 +62,7 @@ module.exports = {
        ]
    },
         {
-           "title": "🔖４． ＤＩＡＭＯＮＤＰＩＣＫＡＸＥ",
+           "title": "🔖5． ＤＩＡＭＯＮＤＰＩＣＫＡＸＥ",
     "rows": [
         {
             "title": `${prefix}mine`,
