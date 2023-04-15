@@ -1,7 +1,3 @@
-const { mku } = require('../../Database/dataschema.js');
-const { sessionSchema } = require('../../Database/index.js');
-const { runtime } = require('../../lib/myfunc.js');
-
 module.exports = {
     name: "set",
     desc: "enable or disable switch",
@@ -17,8 +13,7 @@ module.exports = {
         const secs = Math.floor(seconds % 60);
         return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
         };
-        let textHelpMenu = `
-*━━━❰ SET ❱━━━*
+        let textHelpMenu = `*━━━❰ SET ❱━━━*
 SET1 = TYPE SET1 TO GET ALL THE BOT SWITCHES SO U CAN ON OFF DIRECTLY AND THIS IS IN BUTTONS FROM SO IF U ARE USING MODDED WHATSAPP SO U THIS COMMAMD FOR YOU.
 
 SET2 = TYPE SET2 TO GET ALL THE BOT SWITCHES IN MANUAL FORM THIS COMMAND IS FOR THOSE WHO CANT SEE BUTTONS AND  USING NORMAL OFFICIAL WHATSAPP OR CLONE WHATSAPP BY THIS U CAN MNAUALLY ON OFF SWITCHES.\n\n
