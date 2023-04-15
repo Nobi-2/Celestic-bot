@@ -12,8 +12,7 @@ module.exports = {
         const secs = Math.floor(seconds % 60);
         return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
         };
-        let textHelpMenu = ` 
-*━━━❰ SET2 ❱━━━*
+        let textHelpMenu = `*━━━❰ SET2 ❱━━━*
 1)*ECONOMY*
 -ECONOMYSWITCH ON
 -ECONOMYSWITCH OFF
