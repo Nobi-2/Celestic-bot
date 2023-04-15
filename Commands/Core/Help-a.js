@@ -3,7 +3,7 @@ module.exports = {
     desc: "Displays bot lists₹,
     alias: ["menu-a","h-a"],
     category: "Core",
-    usage: "stats₹,
+    usage: "stats",
     react: "🔢",
     start: async(Miku, m,{text, pushName,prefix}) => {
         const pad = (s) => (s < 10 ? "0" : "") + s;
