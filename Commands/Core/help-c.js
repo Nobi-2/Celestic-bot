@@ -138,6 +138,8 @@ Here's the list of my Commands.\n
 ┃┄⊰❀ ᴀᴅᴅɢᴏʟᴅ (ᴀɢ)
 ┃┄⊰❀ ʀᴇᴍᴏᴠᴇɢᴏʟᴅ (ʀɢ)
 ┃┄⊰❀ ᴘʀᴏᴍᴏᴛᴇᴍᴏᴅ (ᴘᴍ)
+Casino
+Official
 ┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀
 ✦      ╔═════ஓ๑♡๑ஓ═════╗
 ✦────✦        MEDIA      ✦────✦
@@ -280,13 +282,16 @@ Here's the list of my Commands.\n
 ┃┄⊰❀
 ┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀
 ✦     ╔═════ஓ๑♡๑ஓ═════╗
-✦───✦      MINECRAFT       ✦───✦
+✦───✦      RPG SYSTEM    ✦───✦
 ✦     ╚═════ஓ๑♡๑ஓ═════╝
-┃┄⊰❀ ʙᴜʏ
-┃┄⊰❀ ꜱʜᴏᴘ
-┃┄⊰❀ ᴍɪɴᴇ
-┃┄⊰❀ ʀᴇɢ-ɪɴᴠ
-┃┄⊰❀ ɪɴᴠᴇɴᴛᴏʀʏ
+┃┄⊰❀ mine
+┃┄⊰❀ reg-inv
+┃┄⊰❀ fruit-shop
+┃┄⊰❀ stone-shop
+┃┄⊰❀ axe-shop
+┃┄⊰❀ gold-shop
+┃┄⊰❀ inventory
+┃┄⊰❀ BUY
 ┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀\n\n`;  
       
        if (ECOstatus == "true") {
