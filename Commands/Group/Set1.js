@@ -18,7 +18,7 @@ module.exports = {
     "title": "ECONOMY ON",
     "rows": [
         {
-            "title": `${prefix}ECONOMYswitch on`,
+            "title": `${prefix}economyswitch on`,
             "rowId": `${prefix}economyswitch on`
         }
        ]
