@@ -1,9 +1,9 @@
 module.exports = {
-    name: 'help-g',
-    desc: 'Displays bot lists',
-    alias: ['menu-g','h-g'],
-    category: 'Core',
-    usage: 'stats',
+    name: "help-g",
+    desc: "Displays bot lists",
+    alias: ["menu-g","h-g"],
+    category: "Core",
+    usage: "stats",
     start: async(Miku, m,{text, pushName,prefix}) => {
         const pad = (s) => (s < 10 ? "0" : "") + s;
         const formatTime = (seconds) => {
