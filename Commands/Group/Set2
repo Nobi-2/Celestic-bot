@@ -1,40 +1,18 @@
-const { mku } = require('../../Database/dataschema.js');
-const { sessionSchema } = require('../../Database/index.js');
-const { runtime } = require('../../lib/myfunc.js');
-
 module.exports = {
-    name: 'set2',
-    desc: 'enable or disable manually',
-    alias: ['set-2'],
-    category: 'groups',
-    usage: 'switches',
-    react: '🔢',
-    start: async (Miku, m, { text, prefix, mentionByTag, pushName, botName, isCreator, participants, modStatus, commands, store, from }) => {
-      try {
-      const [modlist, FetchGC, totalUsers, sessionCount] = await Promise.all([
-        mku.find({ addedMods: 'true' }),
-        Miku.groupFetchAllParticipating(),
-        mku.find({}),
-        sessionSchema.countDocuments(),
-      ]);
-
-      const groups = Object.entries(FetchGC).map(entry => entry[1]);
-      const groupIds = groups.map(v => v.id);
-      const modIds = modlist.map(mod => mod.id);
-      const cmds = Array.from(commands.values()).filter(v => v.type !== 'hide').length;
-
-      const statsText = generateStatsText(totalUsers.length, 2, groupIds.length, modIds.length, cmds, sessionCount, process.uptime());
-      return Miku.sendMessage(m.from, { text: statsText }, { quoted: m });
-
-    } catch (error) {
-      console.error('Error in stats command:', error);
-      return Miku.sendMessage(m.from, { text: 'An error occurred while fetching bot statistics.' }, { quoted: m });
-    }
-  },
-};
-
-function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) {
-  return `
+    name: "set2",
+    desc: "enable or disable manually",
+    alias: ["set-2"],
+    category: "groups",
+    usage: "switches",
+    start: async(Miku, m,{text, pushName,prefix}) => {
+        const pad = (s) => (s < 10 ? "0" : "") + s;
+        const formatTime = (seconds) => {
+        const hours = Math.floor(seconds / (60 * 60));
+        const minutes = Math.floor((seconds % (60 * 60)) / 60);
+        const secs = Math.floor(seconds % 60);
+        return time = `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
+        };
+        let textHelpMenu = ` 
 *━━━❰ SET2 ❱━━━*
 1)*ECONOMY*
 -ECONOMYSWITCH ON
@@ -62,6 +40,21 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 
 7)*BOT*
 -BOTSWITCH ON
--BOTSWITCH OFF
-`;
-        }
+-BOTSWITCH OFF\n\n
+ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ᴄᴏɴᴛᴀᴄᴛs
+ ᴛᴇʟᴇɢʀᴀᴍ = https://t.me/+zJpompWc6SE1YTI9
+ ᴅɪsᴄᴏʀᴅ = https://discord.gg/ETEZrh6a6k
+ ᴄᴀsɪɴᴏ = https://chat.whatsapp.com/DrY5MBaiDRS9BAcpCpJQCv
+ ᴡʜᴀᴛsᴀᴀᴘ = https://chat.whatsapp.com/EodcJDysqP0LInOzcaPRC1
+ ᴡᴇʙsɪᴛᴇ =   https://celestic-website-2.celestic1.repl.co
+ ʏᴏᴜᴛᴜʙᴇ =  https://youtube.com/@CELESTIC-bottoinc
+ ᴍᴀɪɴ ᴡᴇʙ = https://celesticbotz.000webhostapp.com/
+ ɢᴍᴀɪʟ = Celestic.bot.inc@gmail.com
+ 
+ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴏᴅs ᴛʏᴘᴇ ${prefix}ᴅᴇᴠs
+ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ɪɴᴄ©2023 ʙʏ ᴛᴇᴀᴍ ᴄᴇʟᴇsᴛɪᴄ
+ᴄᴇʟᴇsᴛɪᴄ ʙᴏᴛᴢ ɪɴᴄ`;
+        await Miku.sendMessage(m.from, {video: { url: botVideo }, gifPlayback: true, caption: textHelpMenu,}, { quoted: m });
+     }
+}
+
