@@ -1,0 +1,67 @@
+const { mku } = require('../../Database/dataschema.js');
+const { sessionSchema } = require('../../Database/index.js');
+const { runtime } = require('../../lib/myfunc.js');
+
+module.exports = {
+    name: 'set2',
+    desc: 'enable or disable manually',
+    alias: ['set-2'],
+    category: 'groups',
+    usage: 'switches',
+    react: '🔢',
+    start: async (Miku, m, { text, prefix, mentionByTag, pushName, botName, isCreator, participants, modStatus, commands, store, from }) => {
+      try {
+      const [modlist, FetchGC, totalUsers, sessionCount] = await Promise.all([
+        mku.find({ addedMods: 'true' }),
+        Miku.groupFetchAllParticipating(),
+        mku.find({}),
+        sessionSchema.countDocuments(),
+      ]);
+
+      const groups = Object.entries(FetchGC).map(entry => entry[1]);
+      const groupIds = groups.map(v => v.id);
+      const modIds = modlist.map(mod => mod.id);
+      const cmds = Array.from(commands.values()).filter(v => v.type !== 'hide').length;
+
+      const statsText = generateStatsText(totalUsers.length, 2, groupIds.length, modIds.length, cmds, sessionCount, process.uptime());
+      return Miku.sendMessage(m.from, { text: statsText }, { quoted: m });
+
+    } catch (error) {
+      console.error('Error in stats command:', error);
+      return Miku.sendMessage(m.from, { text: 'An error occurred while fetching bot statistics.' }, { quoted: m });
+    }
+  },
+};
+
+function generateStatsText(users, bots, groups, mods, commands, sessions, uptime) {
+  return `
+*━━━❰ SET2 ❱━━━*
+1)*ECONOMY*
+-ECONOMYSWITCH ON
+-ECONOMYSWITCH OFF
+
+2)*ANTILINK*
+-ANTILINK ON
+-ANTILINK OFF
+
+3)*WELCOME*
+-WELCOMESWITCH ON
+-WELCOMESWITCH OFF
+
+4)*NSFW*
+-NSFWSWITCH ON
+-NSFWSWITCH OFF
+
+5)*CHATBOTGC*
+-CHATBOTGC ON
+-CHATBOTGC OFF
+
+6)*CHATBOTPM*
+-CHATBOTPM ON
+-CHATBOTPM OFF
+
+7)*BOT*
+-BOTSWITCH ON
+-BOTSWITCH OFF
+`;
+        }
