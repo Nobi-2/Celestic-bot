@@ -1,10 +1,10 @@
 module.exports = {
-    name: 'rules',
-    desc: 'Displays bot rules',
-    alias: ['r','help-r'],
-    category: 'Core',
-    usage: 'stats',
-    react: '📊',
+    name: "rulesd,
+    desc: "Displays bot rules",
+    alias: ["r","help-r"],
+    category: "Core",
+    usage: "stats",
+    react: "📊",
     start: async(Miku, m,{text, pushName,prefix}) => {
         const pad = (s) => (s < 10 ? "0" : "") + s;
         const formatTime = (seconds) => {
