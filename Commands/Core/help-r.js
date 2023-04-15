@@ -1,6 +1,6 @@
 module.exports = {
-    name: "rules,
-    desc: "See bot rules",
+    name: "rules",
+    desc: "Displays bot rules",
     alias: ["r","help-r"],
     category: "Core",
     usage: "stats",
