@@ -1,6 +1,6 @@
 module.exports = {
     name: "help-a",
-    desc: "Displays bot lists₹,
+    desc: "Displays bot lists",
     alias: ["menu-a","h-a"],
     category: "Core",
     usage: "stats",
