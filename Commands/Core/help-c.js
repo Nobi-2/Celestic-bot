@@ -83,6 +83,9 @@ Here's the list of my Commands.\n
 ┃┄⊰❀ ᴏᴡɴᴇʀ
 ┃┄⊰❀ ʀᴀɴᴋ
 ┃┄⊰❀ ꜱᴛᴀʟᴋ
+┃┄⊰❀ set
+┃┄⊰❀ help-a
+┃┄⊰❀ help-g
 ┃┄⊰❀ ꜱᴜᴘᴘᴏʀᴛ
 ┃┄⊰❀ ᴄᴏᴜᴘʟᴇᴘᴘ
 ┃
