@@ -33,6 +33,7 @@ module.exports = {
 ┃┄⊰          ᴅᴇᴛᴀɪʟs ᴏғ ᴏᴜʀ ᴄᴇʟᴇsᴛɪᴄ 
 ┃┄⊰          ʙᴏᴛᴢ ᴀssᴏᴄɪᴀᴛɪᴏɴ ʀᴇᴀᴅ
 ┃┄⊰          ᴄᴀʀᴇғᴜʟʟʏ ᴛᴏ ɢᴇᴛ ᴀʟʟ sᴏᴜʀᴄᴇs
+5) type help-rpg to get Rog description 
  
 ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴏᴅs ᴛʏᴘᴇ ${prefix}ᴅᴇᴠs
 
