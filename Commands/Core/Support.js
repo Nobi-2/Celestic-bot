@@ -5,7 +5,7 @@ const { runtime } = require('../../lib/myfunc.js');
 module.exports = {
     name: 'support',
     desc: 'Displays bot support groups',
-    alias: ['cb','botgcs'],
+    alias: ["cb","botgcs"],
     category: 'Core',
     usage: 'stats',
     react: '📊',
