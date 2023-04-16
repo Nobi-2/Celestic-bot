@@ -1,7 +1,7 @@
 const { mku } = require("../../Database/dataschema.js");
 
 module.exports = {
-  name: "addmod",
+  name: "set-legion",
   alias: ["makemod","givepower"],
   desc: "To made an user Mod",
   category: "Mods",
@@ -49,7 +49,7 @@ module.exports = {
               {
                 text: `@${
                   mentionedUser.split("@")[0]
-                } 🐱has been added to *Mods* Successfully !`,
+                } 🐱has been added as *legios* Successfully !`,
                 mentions: [mentionedUser],
               },
               { quoted: m }
