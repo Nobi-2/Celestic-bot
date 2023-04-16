@@ -2,7 +2,7 @@ module.exports = {
     name: "babu",
     alias: ["baby","bs","alive"],
     desc: "Babu status.",
-    react: "💙",
+    react: "🖤",
     category: "Core",
         start: async(Miku, m,{pushName,prefix}) => {
         const pad = (s) => (s < 10 ? "0" : "") + s;
