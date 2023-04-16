@@ -1,7 +1,7 @@
 const { mku } = require("../../Database/dataschema.js");
 
 module.exports = {
-  name: "delmod",
+  name: "del-legion",
   alias: ["removemod", "unmod", "deleteMod"],
   desc: "To remove an user from Mod",
   category: "Mods",
