@@ -6,7 +6,7 @@ const ty = eco.connect(config.mongodb);
 module.exports = {
     name: "buy",
     desc: "Buy mining equipment.",
-    alias: ["buy", "purchase"],
+    alias: ["buy","purchase"],
     category: "RPG",
     usage: "buy <item>",
     react: "💰",
