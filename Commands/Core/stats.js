@@ -5,7 +5,7 @@ const { runtime } = require('../../lib/myfunc.js');
 module.exports = {
     name: 'stats',
     desc: 'Displays bot statistics',
-    alias: ['info'],
+    alias: ["info"],
     category: 'Core',
     usage: 'stats',
     react: '📊',
