@@ -1,6 +1,6 @@
 module.exports = {
   name: "help-c",
-  alias: ["menu-c", "h-c", "helpm-c", "helpmenu-c"],
+  alias: ["menu-c","h-c","helpm-c","helpmenu-c"],
   desc: "Gives all bot commands list",
   react: "🖤",
   category: "Core",
