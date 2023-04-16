@@ -5,7 +5,7 @@ const { shop, player, axe } = require("../../Database/rpgschema.js");
 module.exports = {
     name: "mine-coal",
     desc: "Hunt, mine, dig or chop for resources.",
-    alias: ["hunt-coal", "dig-coal", "chop-coal"],
+    alias: ["hunt-coal","dig-coal","chop-coal"],
     category: "RPG",
     usage: "hunt/mine/dig/chop [axe]",
     react: "🔨",
