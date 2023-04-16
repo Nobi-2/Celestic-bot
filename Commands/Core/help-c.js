@@ -292,7 +292,6 @@ Official
 ┃┄⊰❀ fruit-shop
 ┃┄⊰❀ stone-shop
 ┃┄⊰❀ axe-shop
-┃┄⊰❀ gold-shop
 ┃┄⊰❀ inventory
 ┃┄⊰❀ BUY
 ┖❀⊱┄┄┄┄┄┄┄┄┄┄┄⊰❀\n\n`;  
