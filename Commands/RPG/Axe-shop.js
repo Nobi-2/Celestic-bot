@@ -49,6 +49,12 @@ module.exports = {
 💰 Cost: 1 GOLDEN APPLE
 💻 Usage: ${prefix}buy heroicpickaxe
 💬 Description: Only few can get hands on a *🍎DiamondApple🍎*(very rare)
+
+#7
+💡 Item: God-pickaxe 
+💰 Cost: 10 GOLDEN APPLE
+💻 Usage: ${prefix}buy godpickaxe
+💬 Description: this pickaxe is the ultimate axe
 ` }, { quoted: m });
     }
 }
