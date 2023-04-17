@@ -53,10 +53,9 @@ module.exports = {
                     iron: () => Math.floor(Math.random() * 1) + 4,
                    
                 }
-            },
-    
-    
-    
+            }
+       };
+        
        const selectedAxe = axes[axeUsed];
 
         if (!selectedAxe) {
