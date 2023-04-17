@@ -1,5 +1,5 @@
 module.exports = {
-    name: "mainbot",
+    name: "bot-2",
     alias: ["mainbot"],
     desc: "Sends support group link.",
     cool:3,
