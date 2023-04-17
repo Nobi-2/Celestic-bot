@@ -21,6 +21,7 @@ const playerSchema = new mongoose.Schema({
     stonepickaxe: { type: Number, required: true },
     heroicpickaxe: { type: Number, required: true },
     woodenaxe: { type: Number, required: true },
+    godpickaxe: { type: Number, required: true },
   },
 });
 
