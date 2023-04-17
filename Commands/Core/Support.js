@@ -40,10 +40,13 @@ function generateStatsText(users, bots, groups, mods, commands, sessions, uptime
 
 *suppor group links*
 
-*CELESTIC OFFICIAL GROUP*
+*CELESTIC GAMEBOT GROUP*
 https://chat.whatsapp.com/CyK9zgUyl4A3AioKTafDPJ
-*CELESTIC CASINO GROUP*
+*CELESTIC MAINBOT GROUP*
 https://chat.whatsapp.com/KF2G5qd5VfgLBBLthPaOlO
+*CELSTIC PUBLIC BOT AND GROUP BOT GROUP*
+
+
 
 *rules of groups*
 *dont spam*
