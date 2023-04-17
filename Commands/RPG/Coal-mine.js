@@ -57,7 +57,8 @@ module.exports = {
     
     
     
-        const selectedAxe = axes[axeUsed];           if (!selectedAxe) {
+       const selectedAxe = axes[axeUsed];           
+       if (!selectedAxe) {
             return Miku.sendMessage(message.from, { text: `😕 Invalid axe specified, valid axes are (woodenAxe, woodPickaxe, stonePickaxe, ironPickaxe).` }, { quoted: message });
         }
 
