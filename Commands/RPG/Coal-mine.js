@@ -58,9 +58,9 @@ module.exports = {
     
     
        const selectedAxe = axes[axeUsed];
-        
-       if (!selectedAxe) {
-            return Miku.sendMessage(message.from, { text: `😕 Invalid axe specified, valid axes are (woodenAxe, woodPickaxe, stonePickaxe, ironPickaxe).` }, { quoted: message });
+
+        if (!selectedAxe) {
+            return Miku.sendMessage(message.from, { text: `😕 Invalid axe specified, valid axes are (woodenAxe, woodPickaxe, stonePickaxe, ironPickaxe, diamondPickaxe).` }, { quoted: message });
         }
 
         user.inventory[axeUsed] -= selectedAxe.decrement;
