@@ -382,6 +382,8 @@ Official
 
 🐲 To get Support Group link type " *${prefix}support* ".
 
+ ♨️to get seperate bot groups tyep ${prefix}bots
+
 ♣️ To report any issues to Developer type " *${prefix}report <describe issue>* ".\n`;
 
       
