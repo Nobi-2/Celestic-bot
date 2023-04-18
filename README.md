@@ -80,7 +80,7 @@
 </h4>
   
 <p align="center">
-    <a href="https://railway.app/new/template/Gts2Zx?referralCode=f3gg2m">
+    <a href="https://railway.app/template/Ia7OQL?referralCode=tOQoBu">
     <img src="https://railway.app/button.svg" alt="Deploy on Railway" width="170px">
     </a>
     <br>
