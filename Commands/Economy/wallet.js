@@ -34,7 +34,8 @@ module.exports = {
       m.from,
       {
        image: fs.readFileSync("./Assets/Img/card.png"),
-       caption: `\n💳 *${m.pushName}'s Wallet:*\n\n_💴 ${balance.wallet}_`,
+       caption: `\n💳 *${m.pushName}'s Wallet:*\n\n_💴 gold = ${balance.wallet}
+                                                    💎diamond = ${inventory.diaminds}_`,
       },
       { quoted: m }
     );
